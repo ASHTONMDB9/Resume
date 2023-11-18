@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid">
-        <div class="row">
+        <!-- <div class="row"> -->
         <div class="col-md">
             <h1 id="contact">Contact Me</h1>
             <img id="avatar" class="img-fluid" src="https://i.postimg.cc/3xxzjYqM/ash2-removebg-preview-contact.png">
@@ -20,10 +20,10 @@
                         <button>send</button>
                     </form>
                 </div>
-                <div class="col-md-5">
+                <!-- <div class="col-md-5">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.2675928504113!2d18.490509915821583!3d-33.985659832565865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1658296857775!5m2!1sen!2sza" width="700" height="780" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                </div>
+                </div> -->
     </div>
 </template>
 
@@ -126,9 +126,9 @@ export default {
     border-color: blue;
     box-shadow: 0 0 20px blue;
 }
-iframe {
+/* iframe {
     padding-right: 10px;
     margin-top: 120px;
     filter: invert(100%);
-}
+} */
 </style>

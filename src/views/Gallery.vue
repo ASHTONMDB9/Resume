@@ -1,13 +1,20 @@
 <template>
     <h1 id="Art">Gallery</h1>
 
-    <div class="container-fluid mt-5">
-<div v-for="Artwork of Artworks" :key="Artworks.id">
+    <div class="container-fluid mt-5 mb-5">
+      <div class="container">
+	<div class="box box-1" style="--img: url(https://i.postimg.cc/9Qm4vWBt/20230117-094055.jpg);" data-text="Itachi of the Sharingan"></div>
+	<div class="box box-2" style="--img: url(https://i.postimg.cc/Bn7vk2b4/20230117-094125.jpg);" data-text="The Terrifying Androids"></div>
+	<div class="box box-3" style="--img: url(https://i.postimg.cc/gc3njwSH/20230117-094140.jpg);" data-text="The Victoria"></div>
+	<div class="box box-4" style="--img: url(https://i.postimg.cc/28m3ZzgR/20230117-094149.jpg);" data-text="Pan, Daughter of Gohan"></div>
+	<div class="box box-5" style="--img: url(https://i.postimg.cc/QMBM3VK5/20230117-094157.jpg);" data-text="Sunshine"></div>
+</div>
+<!-- <div v-for="Artwork of Artworks" :key="Artworks.id">
 <div id="gallery" class="card text-light mt-3 mb-2 ms-2 me-2">
     <img id="work" v-bind:src="Artwork.image" class="card-img" style="height: 40rem; object-fit: cover;">
     <h4 class="caption">{{ Artwork.name }}</h4>
     </div>
-</div>
+</div> -->
 </div>
 <div>
     <router-link to="/About"><button class="work w-100"><h6>Back</h6></button></router-link>
@@ -135,6 +142,7 @@
         }
     }
     </script>
+
     <style scoped>
     * {
         padding: 0;
@@ -152,13 +160,98 @@
        text-decoration: underline 3px;
        text-decoration-color: blue;
     }
-    .container-fluid {
+    /* .container-fluid {
        display: flex;
        flex-wrap: wrap;
        justify-content: space-evenly;
        align-items: center;
-    }
-    .card {
+    } */
+
+
+/* body {
+	display: grid;
+	place-content: center;
+	min-height: 100vh;
+	background: #000;
+} */
+
+.container {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	gap: 1em;
+	width: 800px;
+	height: 500px;
+	transition: all 400ms;
+}
+
+.container:hover .box {
+	filter: grayscale(100%) opacity(24%);
+}
+
+.box {
+	position: relative;
+	background: var(--img) center center;
+	background-size: cover;
+	transition: all 400ms;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .box:hover {
+	filter: grayscale(0%) opacity(100%);
+}
+
+.container:has(.box-1:hover) {
+	grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-2:hover) {
+	grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-3:hover) {
+	grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+}
+
+.container:has(.box-4:hover) {
+	grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+}
+
+.container:has(.box-5:hover) {
+	grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+}
+
+.box:nth-child(odd) {
+	transform: translateY(-16px);
+}
+
+.box:nth-child(even) {
+	transform: translateY(16px);
+}
+
+.box::after {
+	content: attr(data-text);
+	position: absolute;
+	bottom: 20px;
+	background: #000;
+	color: #fff;
+	padding: 10px 10px 10px 14px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	transform: translateY(60px);
+	opacity: 0;
+	transition: all 400ms;
+}
+
+.box:hover::after {
+	transform: translateY(0);
+	opacity: 1;
+	transition-delay: 400ms;
+}
+
+    /* .card {
        display: inline-block;
        position: relative;
        height: 40rem;
@@ -190,7 +283,7 @@
         opacity: 0;
         transition-delay:0.2s;
         transition-duration: 1s;
-    }
+    }*/
     .work {
         color: blue;
         height: 50px;
