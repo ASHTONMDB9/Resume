@@ -1,0 +1,120 @@
+<template>
+<div class="row">
+<div class="col-md-6">
+<div class="container">
+    <div><h1>Hi, my name is</h1>
+    <h1>ASHTON</h1></div>
+    </div>
+    <h2 class="text mt-1">Aspiring Full-Stack Developer</h2>
+    <h3 class="text mt-1">Nothing is <span class="impossible"><span>'I</span>M<span>POSSIBLE'</span></span></h3>
+    </div>
+<div class="col-md-6">
+<img id="profile" class="img pe-5" src="https://i.postimg.cc/sxbjj2rz/Ashton-4-removebg-preview.png">
+</div>
+</div>
+</template>
+
+
+<script>
+export default {
+  
+}
+</script>
+<style scoped>
+.row {
+  text-align: center;
+}
+.container {
+  margin-top: 350px;
+}
+.container h1:nth-child(1) {
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+  margin: 0 auto auto auto;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 230px;
+  animation: type 2s steps(40,end) forwards;
+}
+.container h1:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  font-family: sans-serif;
+  margin: 0 auto auto auto;
+  background: linear-gradient( black, white, black);
+  font-weight: 800;
+  font-size: 50px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: move-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+}
+@keyframes move-animation {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
+  1% {
+    background-position: 0 0;
+    opacity: 1;
+    border-right: 1px solid black;
+  }
+  50% {
+    background-position: 150px 0;
+    opacity: 1;
+    border-right: 1px solid black;
+  }
+  100% {
+    background-position: 500px 0;
+    opacity: 1;
+    border-right: 1px solid black;
+  }
+}
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1%, 99%{
+    border-right: 1px solid black;
+  }
+  100%{
+    border-right: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+h2 {
+  color: grey;
+  text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 40px blue;
+}
+h3{
+  color: #484848;
+  padding-top: 20px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+}
+h3 span{
+  transition: .5s linear
+}
+h3:hover span:nth-child(1){
+  margin-right: 5px
+}
+h3:hover span:nth-child(2){
+  margin-left: 30px
+}
+.impossible:hover{
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+#profile {
+  margin-top: 200px
+}
+</style>
