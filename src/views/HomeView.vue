@@ -16,7 +16,7 @@ export default {
 </script>
 <style scoped>
 .container {
-  margin-top: 250px;
+  margin-top: 300px;
 
 }
 .container h1:nth-child(1) {
