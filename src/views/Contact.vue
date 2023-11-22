@@ -273,7 +273,7 @@ export default {
 .container-fluid form input,textarea:focus {
     outline: none; */
 }
-.container-fluid form button {
+button {
     background-color: transparent;
     padding: 10px 0;
     width: 100%;
@@ -282,7 +282,7 @@ export default {
     text-transform: uppercase;
     overflow: hidden;
 }
-.container-fluid form button:hover {
+button:hover {
     color: blue;
     border-color: blue;
     box-shadow: 0 0 20px blue;
