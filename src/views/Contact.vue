@@ -271,7 +271,7 @@ export default {
     margin-bottom: 80px;
 }
 .container-fluid form input,textarea:focus {
-    outline: none;
+    outline: none; */
 }
 .container-fluid form button {
     background-color: transparent;
@@ -286,7 +286,7 @@ export default {
     color: blue;
     border-color: blue;
     box-shadow: 0 0 20px blue;
-} */
+}
 /* iframe {
     padding-right: 10px;
     margin-top: 120px;
