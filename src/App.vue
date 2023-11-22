@@ -20,10 +20,10 @@ export default {
 <style>
 #app {
   overflow-x: hidden;
+  height: 100vh;
 }
-body {
+/* body {
   background-color: black;
- 
-}
+} */
 </style>
  

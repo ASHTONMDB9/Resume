@@ -1,8 +1,7 @@
 <template>
-    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand">A.A
-        <span> ASHTON ABRAHAMS</span>
+    <a class="navbar-brand w-100"><img style="height: 80px; width: 100;"  src="https://i.postimg.cc/mZ7ptKGr/Ashton-Logo.png">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Toggler" aria-controls="Toggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

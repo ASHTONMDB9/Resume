@@ -32,12 +32,13 @@ export default {
 footer {
     margin-top: 30px;
 }
+
 .copyright-area{
   background: black;
   padding: 25px 0;
 }
 .copyright-text p {
-  margin: 0;
+  /* margin: 0; */
   font-size: 14px;
   color: #878787;
 }

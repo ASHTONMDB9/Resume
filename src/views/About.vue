@@ -15,7 +15,7 @@
     <div class="col-md-3">
       <img class="img" id="ash2" src="https://i.postimg.cc/1ztMx7TZ/ash2-removebg-preview.png">
     </div>
-    <div class="col-md-9 ps-5 text-light">
+    <div class="col-md-9 text-light">
       <h3 class="about">About Me</h3>
       <span class="details">
       <h4 class="fw-bold">Full name: Ashton Abrahams</h4>

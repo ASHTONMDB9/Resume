@@ -1,17 +1,11 @@
 <template>
-<div class="row">
-<div class="col-md-6">
 <div class="container">
     <div><h1>Hi, my name is</h1>
-    <h1>ASHTON</h1></div>
+    <h1>Ashton Abrahams</h1></div>
+    <h2 class="text text-center mt-1">Aspiring Full-Stack Developer</h2>
+    <h3 class="text text-center mt-1">Nothing is <span class="impossible"><span>'I</span>M<span>POSSIBLE'</span></span></h3>
+    <p class="text-white text-center">Hover between quotes for animation</p>
     </div>
-    <h2 class="text mt-1">Aspiring Full-Stack Developer</h2>
-    <h3 class="text mt-1">Nothing is <span class="impossible"><span>'I</span>M<span>POSSIBLE'</span></span></h3>
-    </div>
-<div class="col-md-6">
-<img id="profile" class="img pe-5" src="https://i.postimg.cc/sxbjj2rz/Ashton-4-removebg-preview.png">
-</div>
-</div>
 </template>
 
 
@@ -21,11 +15,9 @@ export default {
 }
 </script>
 <style scoped>
-.row {
-  text-align: center;
-}
 .container {
-  margin-top: 350px;
+  margin-top: 250px;
+
 }
 .container h1:nth-child(1) {
   color: white;
@@ -110,11 +102,8 @@ h3:hover span:nth-child(1){
 h3:hover span:nth-child(2){
   margin-left: 30px
 }
-.impossible:hover{
+.impossible:hover {
   color: #fff;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
-}
-#profile {
-  margin-top: 200px
 }
 </style>
