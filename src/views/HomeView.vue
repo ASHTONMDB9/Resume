@@ -1,5 +1,8 @@
 <template>
 <div class="container">
+  <video autoplay muted loop id="land">
+  <source src="../images/Landing.mp4" type="video/mp4">
+</video>
     <div><h1>Hi, my name is</h1>
     <h1>Ashton Abrahams</h1></div>
     <h2 class="text text-center mt-1">Aspiring Full-Stack Developer</h2>
@@ -15,8 +18,16 @@ export default {
 }
 </script>
 <style scoped>
+#land {
+  position: fixed;
+  z-index: -5;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 .container {
-  margin-top: 300px;
+  margin-top: 285px;
 
 }
 .container h1:nth-child(1) {
@@ -35,7 +46,7 @@ export default {
   opacity: 0;
   font-family: sans-serif;
   margin: 0 auto auto auto;
-  background: linear-gradient( black, white, black);
+  background: linear-gradient( black, blue, black);
   font-weight: 800;
   font-size: 50px;
   -webkit-background-clip: text;
@@ -87,7 +98,7 @@ h2 {
   text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 40px blue;
 }
 h3{
-  color: #484848;
+  color: red;
   padding-top: 20px;
   font-weight: bold;
   font-family: monospace;

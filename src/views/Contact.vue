@@ -61,19 +61,19 @@
                             </h3>
                          <form action="https://formspree.io/f/mzboygza" method="POST">
                             <p>Name *</p>
-                            <input type="text" name="Name" required placeholder=" your name">
+                            <input type="text" name="Name" required placeholder=" Your Name">
 
                             <p>Email *</p>
-                            <input type="email" name="Email" required placeholder="your email">
+                            <input type="email" name="Email" required placeholder="Your Email">
 
                             <p>Phone *</p>
-                            <input type="tel" name="Phone" placeholder="your phone">
+                            <input type="tel" name="Phone" placeholder="Your Phone">
 
                             <p>Subject *</p>
-                            <input type="text" name="Subject" required placeholder="subject">
+                            <input type="text" name="Subject" required placeholder="Subject">
 
                             <p>Message *</p>
-                            <textarea type="text" name="Message" placeholder="your message"></textarea>
+                            <textarea type="text" name="Message" placeholder="Your Message"></textarea>
                             
                             <button>send</button>
                             </form>
@@ -271,8 +271,8 @@ export default {
     margin-bottom: 80px;
 }
 .container-fluid form input,textarea:focus {
-    outline: none; */
-}
+    outline: none;
+} */
 button {
     background-color: transparent;
     padding: 10px 0;
@@ -281,6 +281,7 @@ button {
     color: blue;
     text-transform: uppercase;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 button:hover {
     color: blue;
