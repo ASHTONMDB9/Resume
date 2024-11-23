@@ -61,10 +61,10 @@
                             </h3>
                          <form action="https://formspree.io/f/mzboygza" method="POST">
                             <p>Name *</p>
-                            <input type="text" name="Name" required placeholder=" Your Name">
+                            <input type="text" name="Name" required autocomplete placeholder=" Your Name">
 
                             <p>Email *</p>
-                            <input type="email" name="Email" required placeholder="Your Email">
+                            <input type="email" name="Email" required autocomplete placeholder="Your Email">
 
                             <p>Phone *</p>
                             <input type="tel" name="Phone" placeholder="Your Phone">
