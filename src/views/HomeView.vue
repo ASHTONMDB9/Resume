@@ -1,7 +1,7 @@
 <template>
 <div class="container">
   <video autoplay muted loop id="land">
-  <source src="../images/Landing.mp4" type="video/mp4">
+  <source src="../images/Parallax.jpg" type="video/mp4">
 </video>
     <div><h1>Hi, my name is</h1>
     <h1>Ashton Abrahams</h1></div>
