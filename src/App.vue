@@ -1,8 +1,8 @@
-
-<Navbar/>
-  <router-view/>
-  <Footer/>
-</template>
+<template>
+  <Navbar/>
+    <router-view/>
+    <Footer/>
+  </template>
 
 
 <script>
