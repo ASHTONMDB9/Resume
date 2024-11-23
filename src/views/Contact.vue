@@ -36,9 +36,9 @@
                     <div class="contact-child child1">
                         <p>
                             <i class="fas fa-map-marker-alt"></i> Address <br />
-                            <span> Lukas Street 08
+                            <span> Lukas Street Valhalla Park
                                 <br />
-                                Cape Town, SA
+                                Cape Town, CPT
                             </span>
                         </p>
 
