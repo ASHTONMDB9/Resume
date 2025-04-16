@@ -1,6 +1,6 @@
 <template>
       <footer class="footer fixed-bottom">
-        <!-- <div class="copyright-area">
+         <div class="copyright-area">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
@@ -26,15 +26,15 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
 
-<div class="copyright-area">
+<!-- <div class="copyright-area">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Ashton Abrahams Copyright &copy; 2021, All Right Reserved</p>
+                            <p>Ashton Abrahams Copyright &copy; 2025, All Right Reserved</p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
@@ -44,7 +44,7 @@
                                 <li><router-link class="nav-link" to="/Contact">Contact</router-link></li>
 
                                 <li><p>Follow Me:</p></li>
-                                <li><a href="https://www.facebook.com/profile.php?id=100085302518838" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100083321873494" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i></a></li>
                                 <li><a href="https://twitter.com/ASHTON_M_DB9" target="_blank"><i class="fab fa-twitter twitter-bg"></i></a></li>
                                 <li><a href="https://www.instagram.com/ashton.m_db9/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                                 <li><a href="https://github.com/ASHTONMDB9" target="_blank"><i class="fa-brands fa-github"></i></a></li>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
       </footer>
