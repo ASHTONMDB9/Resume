@@ -324,7 +324,7 @@
 	letter-spacing: 4px;
 	text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 3px 3px 3px black;
 	transform: translateY(60px);
 	opacity: 0;
 	transition: all 400ms;
