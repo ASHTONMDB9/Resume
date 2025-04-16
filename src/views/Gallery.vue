@@ -332,7 +332,7 @@
 
 .box:hover::after {
 	transform: translateY(0);
-	opacity: 0.5;
+	opacity: 1;
 	transition-delay: 400ms;
 }
 
