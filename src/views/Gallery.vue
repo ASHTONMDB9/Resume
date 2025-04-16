@@ -323,6 +323,7 @@
 	padding: 10px 10px 10px 14px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
+  font-weight: bold;
 	transform: translateY(60px);
 	opacity: 0;
 	transition: all 400ms;
