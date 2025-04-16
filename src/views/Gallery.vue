@@ -3,7 +3,7 @@
     <p class="d-flex justify-content-center align-items-center text-white">Hover over each image to view</P>
     <div class="container-fluid mt-5 mb-5">
       <div class="container">
-	<div class="box box-1" style="--img: url(https://i.postimg.cc/9Qm4vWBt/20230117-094055.jpg);" loading="lazy" data-text="Itachi of the Sharingan"></div>
+	<div class="box box-1" style="--img: url(https://i.postimg.cc/BQ9qkJ7s/Itachi.jpg);" loading="lazy" data-text="Itachi of the Sharingan"></div>
 	<div class="box box-2" style="--img: url(https://i.postimg.cc/Bn7vk2b4/20230117-094125.jpg);" loading="lazy" data-text="The Terrifying Androids"></div>
 	<div class="box box-3" style="--img: url(https://i.postimg.cc/gc3njwSH/20230117-094140.jpg);" loading="lazy" data-text="The Victoria"></div>
 	<div class="box box-4" style="--img: url(https://i.postimg.cc/28m3ZzgR/20230117-094149.jpg);" loading="lazy" data-text="Pan, Daughter of Gohan"></div>
@@ -13,7 +13,7 @@
   <div class="box box-8" style="--img: url(https://i.postimg.cc/4ywGtThs/20230117-094258.jpg);" loading="lazy" data-text="The warrior of Hope"></div>
   <div class="box box-9" style="--img: url(https://i.postimg.cc/vTGMcmT0/20230117-094307.jpg);" loading="lazy" data-text="Summertime Sadness"></div>
   <div class="box box-10" style="--img: url(https://i.postimg.cc/nzbnf2Jb/20230117-094320.jpg);" loading="lazy" data-text="The Hopes and Dreams of One Sir Alex"></div>
-  <div class="box box-11" style="--img: url(https://i.postimg.cc/J46mzMLQ/20230117-094346.jpg);" loading="lazy" data-text="The Almighty Prince Vegeta"></div>
+  <div class="box box-11" style="--img: url(https://i.postimg.cc/yxFzsSpK/vegeta.jpg);" loading="lazy" data-text="The Almighty Prince Vegeta"></div>
   <div class="box box-12" style="--img: url(https://i.postimg.cc/Hssdmjfx/20230117-094356.jpg);" loading="lazy" data-text="He Who Once Was"></div>
   <div class="box box-13" style="--img: url(https://i.postimg.cc/0Q01RqnD/20230117-094407.jpg);" loading="lazy" data-text="What Is That Mellow-dy?"></div>
   <div class="box box-14" style="--img: url(https://i.postimg.cc/j28V2QGj/20230117-094419.jpg);" loading="lazy" data-text="I Don't Need The Blood Stains To Match My Eyes"></div>
@@ -45,7 +45,7 @@
            Artworks : [
           {
             id: "1",
-            image: "https://i.postimg.cc/9Qm4vWBt/20230117-094055.jpg",
+            image: "https://i.postimg.cc/BQ9qkJ7s/Itachi.jpg",
             name: "Itachi of the Sharingan",
           },
           {
@@ -95,7 +95,7 @@
           },
           {
             id: "11",
-            image: "https://i.postimg.cc/J46mzMLQ/20230117-094346.jpg",
+            image: "https://i.postimg.cc/yxFzsSpK/vegeta.jpg",
             name: "The Almighty Prince Vegeta",
           },
           {
