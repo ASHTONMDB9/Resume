@@ -319,7 +319,6 @@
 	content: attr(data-text);
 	position: absolute;
 	bottom: 20px;
-	background: #000;
 	color: blue;
 	padding: 10px 10px 10px 14px;
 	letter-spacing: 4px;
