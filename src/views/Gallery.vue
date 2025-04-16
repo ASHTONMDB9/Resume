@@ -4,27 +4,27 @@
     <div class="container-fluid mt-5 mb-5">
       <div class="container">
 	<div class="box box-1" style="--img: url(https://i.postimg.cc/BQ9qkJ7s/Itachi.jpg);" loading="lazy" data-text="Itachi of the Sharingan"></div>
-	<div class="box box-2" style="--img: url(https://i.postimg.cc/Bn7vk2b4/20230117-094125.jpg);" loading="lazy" data-text="The Terrifying Androids"></div>
-	<div class="box box-3" style="--img: url(https://i.postimg.cc/gc3njwSH/20230117-094140.jpg);" loading="lazy" data-text="The Victoria"></div>
+	<div class="box box-2" style="--img: url(https://i.postimg.cc/Ls1cS1bs/Androids.jpg);" loading="lazy" data-text="The Terrifying Androids"></div>
+	<div class="box box-3" style="--img: url(https://i.postimg.cc/d3HHrsxX/Victoria.jpg);" loading="lazy" data-text="The Victoria"></div>
 	<div class="box box-4" style="--img: url(https://i.postimg.cc/KzxWBsJ6/Pan.jpg);" loading="lazy" data-text="Pan, Daughter of Gohan"></div>
 	<div class="box box-5" style="--img: url(https://i.postimg.cc/nLv5stYK/Muminah.jpg);" loading="lazy" data-text="Sunshine"></div>
-  <div class="box box-6" style="--img: url(https://i.postimg.cc/G2Gh4NQm/20230117-094211.jpg);" loading="lazy" data-text="Rivals Unite"></div>
-  <div class="box box-7" style="--img: url(https://i.postimg.cc/ydms1R1J/20230117-094249.jpg);" loading="lazy" data-text="I Heart Eren Jaeger"></div>
+  <div class="box box-6" style="--img: url(https://i.postimg.cc/tJCvsZ2W/Vegito.jpg);" loading="lazy" data-text="Rivals Unite"></div>
+  <div class="box box-7" style="--img: url(https://i.postimg.cc/HW2fTHBb/Levi.jpg);" loading="lazy" data-text="I Heart Eren Jaeger"></div>
   <div class="box box-8" style="--img: url(https://i.postimg.cc/NF0PP2hb/Trunks.jpg);" loading="lazy" data-text="The warrior of Hope"></div>
-  <div class="box box-9" style="--img: url(https://i.postimg.cc/vTGMcmT0/20230117-094307.jpg);" loading="lazy" data-text="Summertime Sadness"></div>
-  <div class="box box-10" style="--img: url(https://i.postimg.cc/nzbnf2Jb/20230117-094320.jpg);" loading="lazy" data-text="The Hopes and Dreams of One Sir Alex"></div>
+  <div class="box box-9" style="--img: url(https://i.postimg.cc/pTQ3htxb/Issues.jpg);" loading="lazy" data-text="Summertime Sadness"></div>
+  <div class="box box-10" style="--img: url(https://i.postimg.cc/YChcXVNY/Dreams.jpg);" loading="lazy" data-text="The Hopes and Dreams of One Sir Alex"></div>
   <div class="box box-11" style="--img: url(https://i.postimg.cc/yxFzsSpK/vegeta.jpg);" loading="lazy" data-text="The Almighty Prince Vegeta"></div>
-  <div class="box box-12" style="--img: url(https://i.postimg.cc/Hssdmjfx/20230117-094356.jpg);" loading="lazy" data-text="He Who Once Was"></div>
-  <div class="box box-13" style="--img: url(https://i.postimg.cc/0Q01RqnD/20230117-094407.jpg);" loading="lazy" data-text="What Is That Mellow-dy?"></div>
-  <div class="box box-14" style="--img: url(https://i.postimg.cc/j28V2QGj/20230117-094419.jpg);" loading="lazy" data-text="I Don't Need The Blood Stains To Match My Eyes"></div>
+  <div class="box box-12" style="--img: url(https://i.postimg.cc/cLjpPmTj/Alex.jpg);" loading="lazy" data-text="He Who Once Was"></div>
+  <div class="box box-13" style="--img: url(https://i.postimg.cc/FHfqbSmx/Marshmellow.jpg);" loading="lazy" data-text="What Is That Mellow-dy?"></div>
+  <div class="box box-14" style="--img: url(https://i.postimg.cc/d1FxKSCW/Obtio.jpg);" loading="lazy" data-text="I Don't Need The Blood Stains To Match My Eyes"></div>
   <div class="box box-15" style="--img: url(https://i.postimg.cc/W38Hn6yh/Gogeta.jpg);" loading="lazy" data-text="The Angel Born In Hell"></div>
-  <div class="box box-16" style="--img: url(https://i.postimg.cc/SxBBnKtc/20230117-094456.jpg);" loading="lazy" data-text="The Dragon Sin of Wrath"></div>
-  <div class="box box-17" style="--img: url(https://i.postimg.cc/g0tsGQCw/20230117-094113.jpg);" loading="lazy" data-text="The Japanese Dream"></div>
-  <div class="box box-18" style="--img: url(https://i.postimg.cc/kGKvF4B8/20230117-094133.jpg);" loading="lazy" data-text="Miniture Victory"></div>
-  <div class="box box-19" style="--img: url(https://i.postimg.cc/Kv7511Xh/20230117-094224.jpg);" loading="lazy" data-text="The Ultimate Power"></div>
-  <div class="box box-20" style="--img: url(https://i.postimg.cc/wj6QL9Hy/20230117-094237.jpg);" loading="lazy" data-text="Alex Goes Down The Rabbit Hole"></div>
-  <div class="box box-21" style="--img: url(https://i.postimg.cc/hPRr4950/20230117-094330.jpg);" loading="lazy" data-text="Classy and Comfortable"></div>
-  <div class="box box-22" style="--img: url(https://i.postimg.cc/G3yK1Mq2/20230117-094443.jpg);" loading="lazy" data-text="Love Is Blind, Deaf and Dumb"></div>
+  <div class="box box-16" style="--img: url(https://i.postimg.cc/1zwj2Z8n/Meliodas.jpg);" loading="lazy" data-text="The Dragon Sin of Wrath"></div>
+  <div class="box box-17" style="--img: url(https://i.postimg.cc/0QCH5dd9/Skyline.jpg);" loading="lazy" data-text="The Japanese Dream"></div>
+  <div class="box box-18" style="--img: url(https://i.postimg.cc/YCJPdSCB/Mini.jpg);" loading="lazy" data-text="Miniture Victory"></div>
+  <div class="box box-19" style="--img: url(https://i.postimg.cc/gJbf22CH/Gohan.jpg);" loading="lazy" data-text="The Ultimate Power"></div>
+  <div class="box box-20" style="--img: url(https://i.postimg.cc/Fz980nsf/Kirito.jpg);" loading="lazy" data-text="Alex Goes Down The Rabbit Hole"></div>
+  <div class="box box-21" style="--img: url(https://i.postimg.cc/ZnVgHFCw/Land-Rover.jpg);" loading="lazy" data-text="Classy and Comfortable"></div>
+  <div class="box box-22" style="--img: url(https://i.postimg.cc/Kv8CzVHw/Love.jpg);" loading="lazy" data-text="Love Is Blind, Deaf and Dumb"></div>
 </div>
 <!-- <div v-for="Artwork of Artworks" :key="Artworks.id">
 <div id="gallery" class="card text-light mt-3 mb-2 ms-2 me-2">
@@ -50,12 +50,12 @@
           },
           {
             id: "2",
-            image: "https://i.postimg.cc/Bn7vk2b4/20230117-094125.jpg",
+            image: "https://i.postimg.cc/Ls1cS1bs/Androids.jpg",
             name: "The Terrifying Androids",
           },
           {
             id: "3",
-            image: "https://i.postimg.cc/gc3njwSH/20230117-094140.jpg",
+            image: "https://i.postimg.cc/d3HHrsxX/Victoria.jpg",
             name: "The Victoria",
           },
           {
@@ -70,12 +70,12 @@
           },
           {
             id: "6",
-            image: "https://i.postimg.cc/G2Gh4NQm/20230117-094211.jpg",
+            image: "https://i.postimg.cc/tJCvsZ2W/Vegito.jpg",
             name: "Rivals Unite",
           },
           {
             id: "7",
-            image: "https://i.postimg.cc/ydms1R1J/20230117-094249.jpg",
+            image: "https://i.postimg.cc/HW2fTHBb/Levi.jpg",
             name: "I Heart Eren Jaeger",
           },
           {
@@ -85,12 +85,12 @@
           },
           {
             id: "9",
-            image: "https://i.postimg.cc/vTGMcmT0/20230117-094307.jpg",
+            image: "https://i.postimg.cc/pTQ3htxb/Issues.jpg",
             name: "Summertime Sadness",
           },
           {
             id: "10",
-            image: "https://i.postimg.cc/nzbnf2Jb/20230117-094320.jpg",
+            image: "https://i.postimg.cc/YChcXVNY/Dreams.jpg",
             name: "The Hopes and Dreams of One Sir Alex",
           },
           {
@@ -100,18 +100,18 @@
           },
           {
             id: "12",
-            image: "https://i.postimg.cc/Hssdmjfx/20230117-094356.jpg",
+            image: "https://i.postimg.cc/cLjpPmTj/Alex.jpg",
             name: "He Who Once Was",
           },
           {
             id: "13",
-            image: "https://i.postimg.cc/0Q01RqnD/20230117-094407.jpg",
+            image: "https://i.postimg.cc/FHfqbSmx/Marshmellow.jpg",
             name: "What Is That Mellow-dy",
           },
           {
             id: "14",
-            image: "https://i.postimg.cc/j28V2QGj/20230117-094419.jpg",
-            name: "I Don't Want The Blood Stains To Match My Eyes",
+            image: "https://i.postimg.cc/d1FxKSCW/Obtio.jpg",
+            name: "I Don't Need The Blood Stains To Match My Eyes",
           },
           {
             id: "15",
@@ -120,37 +120,37 @@
           },
           {
             id: "16",
-            image: "https://i.postimg.cc/SxBBnKtc/20230117-094456.jpg",
+            image: "https://i.postimg.cc/1zwj2Z8n/Meliodas.jpg",
             name: "The Dragon Sin of Wrath",
           },
           {
             id: "17",
-            image: "https://i.postimg.cc/g0tsGQCw/20230117-094113.jpg",
+            image: "https://i.postimg.cc/0QCH5dd9/Skyline.jpg",
             name: "The Japanese Dream",
           },
           {
             id: "18",
-            image: "https://i.postimg.cc/kGKvF4B8/20230117-094133.jpg",
+            image: "https://i.postimg.cc/YCJPdSCB/Mini.jpg",
             name: "Miniture Victory",
           },
           {
             id: "19",
-            image: "https://i.postimg.cc/Kv7511Xh/20230117-094224.jpg",
+            image: "https://i.postimg.cc/gJbf22CH/Gohan.jpg",
             name: "The Ultimate Power",
           },
           {
             id: "20",
-            image: "https://i.postimg.cc/wj6QL9Hy/20230117-094237.jpg",
+            image: "https://i.postimg.cc/Fz980nsf/Kirito.jpg",
             name: "Alex Goes Down The Rabbit Hole",
           },
           {
             id: "21",
-            image: "https://i.postimg.cc/hPRr4950/20230117-094330.jpg",
+            image: "https://i.postimg.cc/ZnVgHFCw/Land-Rover.jpg",
             name: "Classy and Comfortable",
           },
           {
             id: "22",
-            image: "https://i.postimg.cc/G3yK1Mq2/20230117-094443.jpg",
+            image: "https://i.postimg.cc/Kv8CzVHw/Love.jpg",
             name: "Love Is Blind, Deaf and Dumb",
           }
           
@@ -331,7 +331,7 @@
 
 .box:hover::after {
 	transform: translateY(0);
-	opacity: 1;
+	opacity: 0.5;
 	transition-delay: 400ms;
 }
 
