@@ -6,18 +6,18 @@
 	<div class="box box-1" style="--img: url(https://i.postimg.cc/BQ9qkJ7s/Itachi.jpg);" loading="lazy" data-text="Itachi of the Sharingan"></div>
 	<div class="box box-2" style="--img: url(https://i.postimg.cc/Bn7vk2b4/20230117-094125.jpg);" loading="lazy" data-text="The Terrifying Androids"></div>
 	<div class="box box-3" style="--img: url(https://i.postimg.cc/gc3njwSH/20230117-094140.jpg);" loading="lazy" data-text="The Victoria"></div>
-	<div class="box box-4" style="--img: url(https://i.postimg.cc/28m3ZzgR/20230117-094149.jpg);" loading="lazy" data-text="Pan, Daughter of Gohan"></div>
-	<div class="box box-5" style="--img: url(https://i.postimg.cc/QMBM3VK5/20230117-094157.jpg);" loading="lazy" data-text="Sunshine"></div>
+	<div class="box box-4" style="--img: url(https://i.postimg.cc/KzxWBsJ6/Pan.jpg);" loading="lazy" data-text="Pan, Daughter of Gohan"></div>
+	<div class="box box-5" style="--img: url(https://i.postimg.cc/nLv5stYK/Muminah.jpg);" loading="lazy" data-text="Sunshine"></div>
   <div class="box box-6" style="--img: url(https://i.postimg.cc/G2Gh4NQm/20230117-094211.jpg);" loading="lazy" data-text="Rivals Unite"></div>
   <div class="box box-7" style="--img: url(https://i.postimg.cc/ydms1R1J/20230117-094249.jpg);" loading="lazy" data-text="I Heart Eren Jaeger"></div>
-  <div class="box box-8" style="--img: url(https://i.postimg.cc/4ywGtThs/20230117-094258.jpg);" loading="lazy" data-text="The warrior of Hope"></div>
+  <div class="box box-8" style="--img: url(https://i.postimg.cc/NF0PP2hb/Trunks.jpg);" loading="lazy" data-text="The warrior of Hope"></div>
   <div class="box box-9" style="--img: url(https://i.postimg.cc/vTGMcmT0/20230117-094307.jpg);" loading="lazy" data-text="Summertime Sadness"></div>
   <div class="box box-10" style="--img: url(https://i.postimg.cc/nzbnf2Jb/20230117-094320.jpg);" loading="lazy" data-text="The Hopes and Dreams of One Sir Alex"></div>
   <div class="box box-11" style="--img: url(https://i.postimg.cc/yxFzsSpK/vegeta.jpg);" loading="lazy" data-text="The Almighty Prince Vegeta"></div>
   <div class="box box-12" style="--img: url(https://i.postimg.cc/Hssdmjfx/20230117-094356.jpg);" loading="lazy" data-text="He Who Once Was"></div>
   <div class="box box-13" style="--img: url(https://i.postimg.cc/0Q01RqnD/20230117-094407.jpg);" loading="lazy" data-text="What Is That Mellow-dy?"></div>
   <div class="box box-14" style="--img: url(https://i.postimg.cc/j28V2QGj/20230117-094419.jpg);" loading="lazy" data-text="I Don't Need The Blood Stains To Match My Eyes"></div>
-  <div class="box box-15" style="--img: url(https://i.postimg.cc/3r9QtYdH/20230117-094429.jpg);" loading="lazy" data-text="The Angel Born In Hell"></div>
+  <div class="box box-15" style="--img: url(https://i.postimg.cc/W38Hn6yh/Gogeta.jpg);" loading="lazy" data-text="The Angel Born In Hell"></div>
   <div class="box box-16" style="--img: url(https://i.postimg.cc/SxBBnKtc/20230117-094456.jpg);" loading="lazy" data-text="The Dragon Sin of Wrath"></div>
   <div class="box box-17" style="--img: url(https://i.postimg.cc/g0tsGQCw/20230117-094113.jpg);" loading="lazy" data-text="The Japanese Dream"></div>
   <div class="box box-18" style="--img: url(https://i.postimg.cc/kGKvF4B8/20230117-094133.jpg);" loading="lazy" data-text="Miniture Victory"></div>
@@ -60,12 +60,12 @@
           },
           {
             id: "4",
-            image: "https://i.postimg.cc/28m3ZzgR/20230117-094149.jpg",
+            image: "https://i.postimg.cc/KzxWBsJ6/Pan.jpg",
             name: "Pan, Daughter of Gohan",
           },
           {
             id: "5",
-            image: "https://i.postimg.cc/QMBM3VK5/20230117-094157.jpg",
+            image: "https://i.postimg.cc/nLv5stYK/Muminah.jpg",
             name: "Sunshine",
           },
           {
@@ -80,7 +80,7 @@
           },
           {
             id: "8",
-            image: "https://i.postimg.cc/4ywGtThs/20230117-094258.jpg",
+            image: "https://i.postimg.cc/NF0PP2hb/Trunks.jpg",
             name: "The warrior of Hope",
           },
           {
@@ -115,7 +115,7 @@
           },
           {
             id: "15",
-            image: "https://i.postimg.cc/3r9QtYdH/20230117-094429.jpg",
+            image: "https://i.postimg.cc/W38Hn6yh/Gogeta.jpg",
             name: "The Angel Born In Hell",
           },
           {
