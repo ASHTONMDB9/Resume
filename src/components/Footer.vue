@@ -1,6 +1,6 @@
 <template>
       <footer class="footer fixed-bottom">
-         <div class="copyright-area">
+        <!-- <div class="copyright-area">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
@@ -26,10 +26,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
-<!-- <div class="copyright-area">
+<div class="copyright-area">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
 
       </footer>
