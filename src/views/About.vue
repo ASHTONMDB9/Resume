@@ -47,7 +47,7 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   color: white;
 }
 .container {

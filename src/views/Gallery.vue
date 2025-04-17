@@ -320,23 +320,21 @@
 	position: absolute;
 	bottom: 20px;
 	color: blue;
-  background-color: rgb(0, 0, 0) 0.4;
+  background: rgb(0, 0, 0, 0.4);
 	padding: 10px 10px 10px 14px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
   font-weight: bold;
   text-shadow: 2px 2px 3px black;
 	transform: translateY(60px);
-	/* opacity: 0; */
-  display: none;
+	opacity: 0;
 	transition: all 400ms;
 }
 
 .box:hover::after {
 	transform: translateY(0);
-	/* opacity: 1; */
+	opacity: 1;
 	transition-delay: 400ms;
-  display: inline;
 }
 
     /* .card {
