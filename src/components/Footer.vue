@@ -37,7 +37,7 @@
                             <p>Ashton Abrahams Copyright &copy; 2025, All Right Reserved</p>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="col-xl-6 col-lg-6 text-right">
                         <div class="footer-menu">
                             <ul>
                                 <li><router-link class="nav-link" to="/">Home</router-link></li>
@@ -81,6 +81,8 @@ ul {
   background: #202020;
   padding-top: 25px;
   padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .copyright-text p {
   margin: 0;
@@ -91,8 +93,9 @@ ul {
   color: #ff5e14;
 }
 .footer-menu li {
-  display: inline-block;
+  display: flex;
   margin-left: 20px;
+  justify-content: end;
 }
 .footer-menu li:hover a{
   color: blue;
