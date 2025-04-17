@@ -1,6 +1,7 @@
 <template>
     <h1 id="Art">Gallery</h1>
     <p class="d-flex justify-content-center align-items-center text-white">Hover over each image to view</P>
+      <p class="d-flex justify-content-center align-items-center text-white">A few of the works I've done in my spare time</P>
     <div class="container-fluid mt-5 mb-5">
       <div class="container">
 	<div class="box box-1" style="--img: url(https://i.postimg.cc/BQ9qkJ7s/Itachi.jpg);" loading="lazy" data-text="Itachi of the Sharingan"></div>

@@ -1,10 +1,14 @@
 <template>
 <div class="container">
-    <div><h1>Hi, I'm</h1>
-    <h1>Ashton Abrahams</h1></div>
+  <div id="land">
+  <img src="../images/land.jpg">
+
+    <div><h1>Hi, my name is</h1>
+      <button type="button" class="btn btn-outline-info rounded-pill"><h1>Ashton Abrahams</h1></button></div>
     <h2 class="text text-center mt-1">Aspiring Full-Stack Developer</h2>
     <h3 class="text text-center mt-1">Nothing is <span class="impossible"><span>'I</span>M<span>POSSIBLE'</span></span></h3>
     <p class="text-white text-center">Hover between quotes for animation</p>
+    </div>
 </div>
 </template>
 
@@ -25,7 +29,7 @@ export default {
 }
 .container {
   margin-top: 285px;
-  background-image: url(/src/images/land.jpg);
+
 }
 .container h1:nth-child(1) {
   color: white;
@@ -46,10 +50,7 @@ export default {
   background: linear-gradient( black, blue, black);
   font-weight: 800;
   font-size: 50px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  overflow: hidden;
-  animation: move-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+
 }
 @keyframes move-animation {
   0% {
