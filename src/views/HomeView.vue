@@ -1,6 +1,5 @@
 <template>
 <div class="container">
-  <img src="../images/land.jpg">
     <div><h1>Hi, I'm</h1>
     <h1>Ashton Abrahams</h1></div>
     <h2 class="text text-center mt-1">Aspiring Full-Stack Developer</h2>
@@ -23,11 +22,10 @@ export default {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  background-image: url(/src/images/land.jpg);
 }
 .container {
   margin-top: 285px;
-
+  background-image: url(/src/images/land.jpg);
 }
 .container h1:nth-child(1) {
   color: white;

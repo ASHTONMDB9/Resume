@@ -327,14 +327,16 @@
   font-weight: bold;
   text-shadow: 2px 2px 3px black;
 	transform: translateY(60px);
-	opacity: 0;
+	/* opacity: 0; */
+  display: none;
 	transition: all 400ms;
 }
 
 .box:hover::after {
 	transform: translateY(0);
-	opacity: 1;
+	/* opacity: 1; */
 	transition-delay: 400ms;
+  display: inline;
 }
 
     /* .card {
