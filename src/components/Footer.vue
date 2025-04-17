@@ -83,6 +83,7 @@ ul {
   padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
+  align-content: center;
 }
 .copyright-text p {
   margin: 0;
