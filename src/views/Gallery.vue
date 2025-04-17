@@ -320,7 +320,7 @@
 	position: absolute;
 	bottom: 20px;
 	color: blue;
-  background-color: black 0.5;
+  background-color: black 0.3;
 	padding: 10px 10px 10px 14px;
 	letter-spacing: 4px;
 	text-transform: uppercase;

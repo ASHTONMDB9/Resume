@@ -1,14 +1,15 @@
 <template>
 <div class="container">
-  <video autoplay muted loop id="land">
-  <source src="../images/land.jpg" type="video/mp4">
-</video>
-    <div><h1>Hi, my name is</h1>
+  <div id="land">
+  <img src="../images/land.jpg">
+
+    <div><h1>Hi, I'm</h1>
     <h1>Ashton Abrahams</h1></div>
     <h2 class="text text-center mt-1">Aspiring Full-Stack Developer</h2>
     <h3 class="text text-center mt-1">Nothing is <span class="impossible"><span>'I</span>M<span>POSSIBLE'</span></span></h3>
     <p class="text-white text-center">Hover between quotes for animation</p>
     </div>
+</div>
 </template>
 
 
@@ -34,7 +35,7 @@ export default {
   color: white;
   font-weight: 800;
   font-size: 30px;
-  margin: 0;
+  margin: 0 auto auto auto;
   white-space: nowrap;
   overflow: hidden;
   width: 230px;
@@ -45,7 +46,7 @@ export default {
   justify-content: center;
   opacity: 0;
   font-family: sans-serif;
-  margin: 0;
+  margin: 0 auto auto auto;
   background: linear-gradient( black, blue, black);
   font-weight: 800;
   font-size: 50px;

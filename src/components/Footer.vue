@@ -92,7 +92,7 @@ ul {
 }
 .footer-menu li {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 100px;
 }
 .footer-menu li:hover a{
   color: blue;
