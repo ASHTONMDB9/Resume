@@ -1,7 +1,7 @@
 <template>
 <div class="container">
   <video autoplay muted loop id="land">
-  <source src="../images/Parallax.jpg" type="video/mp4">
+  <source src="../images/land.jpg" type="video/mp4">
 </video>
     <div><h1>Hi, my name is</h1>
     <h1>Ashton Abrahams</h1></div>
@@ -34,7 +34,7 @@ export default {
   color: white;
   font-weight: 800;
   font-size: 30px;
-  margin: 0 auto auto auto;
+  margin: 0;
   white-space: nowrap;
   overflow: hidden;
   width: 230px;
@@ -45,7 +45,7 @@ export default {
   justify-content: center;
   opacity: 0;
   font-family: sans-serif;
-  margin: 0 auto auto auto;
+  margin: 0;
   background: linear-gradient( black, blue, black);
   font-weight: 800;
   font-size: 50px;
