@@ -1,14 +1,11 @@
 <template>
 <div class="container">
-  <div id="land">
   <img src="../images/land.jpg">
-
     <div><h1>Hi, I'm</h1>
     <h1>Ashton Abrahams</h1></div>
     <h2 class="text text-center mt-1">Aspiring Full-Stack Developer</h2>
     <h3 class="text text-center mt-1">Nothing is <span class="impossible"><span>'I</span>M<span>POSSIBLE'</span></span></h3>
     <p class="text-white text-center">Hover between quotes for animation</p>
-    </div>
 </div>
 </template>
 
@@ -26,6 +23,7 @@ export default {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  background-image: url(/src/images/land.jpg);
 }
 .container {
   margin-top: 285px;
