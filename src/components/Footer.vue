@@ -32,7 +32,7 @@
 <div class="copyright-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="col-xl-6 col-lg-6 text-lg-left">
                         <div class="copyright-text">
                             <p>Ashton Abrahams Copyright &copy; 2025, All Right Reserved</p>
                         </div>
