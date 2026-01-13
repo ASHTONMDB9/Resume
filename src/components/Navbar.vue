@@ -1,7 +1,7 @@
 <template>
     <nav id="nav" class="navbar navbar-dark navbar-expand-lg fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand w-100"><img style="height: 80px; width: 100;"  src="https://i.postimg.cc/mZ7ptKGr/Ashton-Logo.png">
+    <a class="navbar-brand w-100"><img style="height: 65px; width: 100;"  src="https://i.postimg.cc/mZ7ptKGr/Ashton-Logo.png">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Toggler" aria-controls="Toggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -71,8 +71,8 @@ align-items: center;
 }
 .navbar a.router-link-exact-active {
   color: blue;
-  text-decoration: underline overline;
-  text-decoration-thickness: 2px;
+  text-decoration: underline overline double ;
+  text-decoration-thickness: 3px;
   text-decoration-color: blue;
 }
 </style>

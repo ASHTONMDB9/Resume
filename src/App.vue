@@ -24,8 +24,8 @@ export default {
 body {
   background-color: black;
   height: 100%;
-  margin-top: 80px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 ::-webkit-scrollbar {
   width: 5px;

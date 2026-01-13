@@ -34,7 +34,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Ashton Abrahams Copyright &copy; 2021, All Right Reserved</p>
+                            <p>Ashton Abrahams Copyright &copy; 2026, All Right Reserved</p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
@@ -79,8 +79,8 @@ ul {
 }
 .copyright-area{
   background: #202020;
-  padding-top: 25px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 .copyright-text p {
   margin: 0;
@@ -92,7 +92,7 @@ ul {
 }
 .footer-menu li {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .footer-menu li:hover a{
   color: blue;

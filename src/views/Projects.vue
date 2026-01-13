@@ -1,10 +1,10 @@
 <template>
 <h1 id="project">Projects</h1>
 
-<div class="container-fluid mt-5">
+<div class="container-fluid mt-3 mb-4">
 <div v-for="project of projects" :key="project.id">
 <div id="list" class="card text-light mt-3 mb-2 ms-2 me-2" style="width: 22rem; height: 25rem;">
-    <img id="propic" v-bind:src="project.image" class="card-img" style="height: 23rem; object-fit: cover;">
+    <img id="propic" v-bind:src="project.image" class="card-img" style="height: 25rem; object-fit: cover;">
     <div class="card-img-overlay">
     <h2 class="card-title">{{ project.name }}</h2>
     <p>{{ project.description }}</p>
