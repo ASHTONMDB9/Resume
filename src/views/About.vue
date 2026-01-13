@@ -51,7 +51,7 @@
   color: white;
 }
 .container {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 #ash2 {
   margin-top: -100px;
