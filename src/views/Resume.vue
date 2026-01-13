@@ -49,10 +49,10 @@
       <section>
         <h3 class="info">Grizzly New Marketing <span class="time">
             <time datetime="2020-05-29" class="start">(2022)</time>
-            </span></h3>
+          </span></h3>
+          <p><strong>Life Choices </strong><b>314 Imam Haron Rd, Lansdowne, Cape Town, 7780</b></p>
             <li>Hand picked to complete a 4 month course alonside 19 other candidates<br/> for the opportunity to learn and understand Search Engine Optimization(SEO)<br/> using tools such as Divi, Yoast SEO and Wordpress.</li>
             <li>Learnt the importance of keywords, phrases, tags and images that can attract<br/> more traffic towards websites and how to optimise searches for the best results</li>
-        <p><strong>Life Choices </strong><b>314 Imam Haron Rd, Lansdowne, Cape Town, 7780</b></p>
           <h3 class="info">Leader's Quest <span class="time">
             <time datetime="2020-05-29" class="start">(2020</time> &#8211; 
             <time datetime="2020-05-14" class="end">2021)</time>
