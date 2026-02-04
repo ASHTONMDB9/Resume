@@ -15,21 +15,31 @@ export default {
   mounted() {
     const cursor = document.querySelector(".cursor");
 
-    window.addEventListener("mousemove", (e) => {
+    this.onMouseMove = (e) => {
       cursor.style.left = `${e.clientX}px`;
       cursor.style.top = `${e.clientY}px`;
-    });
+    };
 
-    /* Hover feedback */
-    document.querySelectorAll("a, button, .impossible").forEach((el) => {
-      el.addEventListener("mouseenter", () => {
+    this.onMouseOver = (e) => {
+      if (e.target.closest("a, button, .impossible")) {
         cursor.style.transform = "translate(-50%, -50%) scale(1.4)";
-      });
+      }
+    };
 
-      el.addEventListener("mouseleave", () => {
+    this.onMouseOut = (e) => {
+      if (e.target.closest("a, button, .impossible")) {
         cursor.style.transform = "translate(-50%, -50%) scale(1)";
-      });
-    });
+      }
+    };
+
+    window.addEventListener("mousemove", this.onMouseMove);
+    document.addEventListener("mouseover", this.onMouseOver);
+    document.addEventListener("mouseout", this.onMouseOut);
+  },
+  beforeUnmount() {
+    window.removeEventListener("mousemove", this.onMouseMove);
+    document.removeEventListener("mouseover", this.onMouseOver);
+    document.removeEventListener("mouseout", this.onMouseOut);
   },
   components: {
     Navbar,
