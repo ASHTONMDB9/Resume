@@ -115,6 +115,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 .testimonials-page {
   padding-top: 90px;

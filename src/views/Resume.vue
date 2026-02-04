@@ -298,6 +298,7 @@
 <script>
 export default {};
 </script>
+
 <style scoped>
 .resume-page {
   padding-top: 90px;
