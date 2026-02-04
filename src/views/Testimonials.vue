@@ -53,7 +53,7 @@ export default {
         },
         {
           id: "2",
-          image: "https://i.postimg.cc/QMCsT3QC/Ricardo-2.png",
+          image: "https://i.postimg.cc/hPk0yf9Z/Charles-2.png",
           name: "Ricardo Moses",
           testimony:
             "Ashton is a diligent worker, always stays focused and works hard. He's kind and open-minded personality makes him a pleasure to be around in a work environment.",
@@ -96,7 +96,7 @@ export default {
         },
         {
           id: "7",
-          image: "https://i.postimg.cc/k5p1hrk1/Jesse-2.png",
+          image: "https://i.postimg.cc/vHJvqcWP/Jesse-2.png",
           name: "Jesse Spence",
           testimony:
             "Ashton is extremely creative, artistic and has a great eye for design. This combined with his friendly attitude and good communication makes him an incredible person to work with. I am extremely grateful to have worked and learned along side him.",
@@ -104,7 +104,7 @@ export default {
         },
         {
           id: "8",
-          image: "https://i.postimg.cc/vmfgCfKj/Charles-2.png",
+          image: "https://i.postimg.cc/hPk0yf9Z/Charles-2.png",
           name: "Abdus-Samad Charles",
           testimony:
             "Ashton is a trustworthy and hardworking individual who enjoys solving problems and helping others. He has a very calm demeaner and is easily approachable.",
