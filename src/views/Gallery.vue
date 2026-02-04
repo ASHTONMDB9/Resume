@@ -52,7 +52,8 @@ export default {
           img: "https://i.postimg.cc/KzxWBsJ6/Pan.jpg",
           title: "Pan, Daughter of Gohan",
         },
-        { img: "https://i.postimg.cc/nLv5stYK/Muminah.jpg", title: "Sunshine" },
+        { img: "https://i.postimg.cc/nLv5stYK/Muminah.jpg", 
+          title: "Sunshine" },
         {
           img: "https://i.postimg.cc/tJCvsZ2W/Vegito.jpg",
           title: "Rivals Unite",
