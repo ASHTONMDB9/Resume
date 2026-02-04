@@ -146,7 +146,7 @@ export default {
 }
 
 .social-icon i {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 /* Responsive */
