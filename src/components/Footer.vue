@@ -11,13 +11,12 @@
           <router-link class="footer-link" to="/contact">Contact</router-link>
         </nav>
 
-        <div class="footer-social" aria-label="Social links">
+        <div class="footer-socials" aria-label="Social links">
           <span class="follow">Follow me</span>
 
           <a
             href="https://www.facebook.com/profile.php?id=100085302518838"
             target="_blank"
-            rel="noopener noreferrer"
             class="social-icon"
             aria-label="Facebook"
           >
@@ -27,7 +26,6 @@
           <a
             href="https://twitter.com/ASHTON_M_DB9"
             target="_blank"
-            rel="noopener noreferrer"
             class="social-icon"
             aria-label="Twitter"
           >
@@ -70,17 +68,8 @@
 </template>
 
 <script>
-export default {
-  name: "AppFooter",
-  mounted() {
-    const el = this.$el.querySelector(".footer-social");
-    if (el && el.style.display === "none") {
-      el.style.removeProperty("display");
-    }
-  },
-};
+export default {};
 </script>
-
 
 <style scoped>
 .footer {
@@ -144,7 +133,7 @@ export default {
   text-transform: uppercase;
 }
 
-.footer-social {
+.footer-socials {
   display: flex;
   gap: 0.7rem;
   align-items: center;
