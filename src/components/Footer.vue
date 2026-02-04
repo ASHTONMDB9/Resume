@@ -72,8 +72,15 @@
 <script>
 export default {
   name: "AppFooter",
+  mounted() {
+    const el = this.$el.querySelector(".footer-social");
+    if (el && el.style.display === "none") {
+      el.style.removeProperty("display");
+    }
+  },
 };
 </script>
+
 
 <style scoped>
 .footer {
@@ -138,7 +145,7 @@ export default {
 }
 
 .footer-social {
-  display: flex !important;
+  display: flex;
   gap: 0.7rem;
   align-items: center;
 }

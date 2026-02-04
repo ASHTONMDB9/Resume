@@ -3,8 +3,13 @@
     <span class="cursor-inner-ring"></span>
     <span class="cursor-dot"></span>
   </div>
+
   <Navbar />
-  <router-view />
+
+  <main id="main-content">
+    <router-view />
+  </main>
+
   <Footer />
 </template>
 
