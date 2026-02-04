@@ -49,9 +49,8 @@ export default {
 </script>
 
 <style>
-/* Hide default cursor */
 * {
-  cursor: none !important;
+  cursor: none;
 }
 
 /* Main cursor container */
