@@ -1,97 +1,266 @@
 <template>
-<div class="tabs">
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <router-link class="nav-link active" aria-current="page" to="/About"><h6>Bio</h6></router-link>
-  </li>
-  <li class="nav-item">
-    <router-link class="nav-link" to="/Skills"><h6>Skills</h6></router-link>
-  </li>
-</ul>
-</div>
+  <div class="about-page">
+    <div class="tabs">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <router-link class="nav-link active" to="/About">
+            <h6>Bio</h6>
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/Skills">
+            <h6>Skills</h6>
+          </router-link>
+        </li>
+      </ul>
+    </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-3">
-      <img class="img" id="ash2" src="https://i.postimg.cc/1ztMx7TZ/ash2-removebg-preview.png">
+    <div class="about-container">
+      <div class="about-card">
+        <div class="about-left">
+          <img
+            id="ash2"
+            src="https://i.postimg.cc/1ztMx7TZ/ash2-removebg-preview.png"
+            alt="Ashton"
+          />
+        </div>
+
+        <div class="about-right">
+          <h3 class="about-title">About Me</h3>
+
+          <div class="details">
+            <p><span>Full name:</span> Ashton Abrahams</p>
+            <p><span>Date of birth:</span> 07/07/2004</p>
+            <p><span>Gender:</span> Male</p>
+          </div>
+
+          <div class="bio">
+            <p>
+              Hi there! I'm Ashton — a consistent and committed developer with
+              an optimistic and artistic mind. I’ve been fascinated with
+              technology since I was six.
+            </p>
+            <p>
+              I love gaming, computers, and creative problem solving. I’m
+              confident working with others and I always welcome challenges —
+              I’m a hard worker who finishes what I start.
+            </p>
+            <p>
+              Outside of coding, I enjoy art, music, anime, hiking, go-karting,
+              cars, chess, paintball, and socialising.
+            </p>
+          </div>
+
+          <div class="socials-section">
+            <span class="share">Socials</span>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/profile.php?id=100083321873494"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/ashton.m_db9/"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://github.com/ASHTONMDB9"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ashton-abrahams-0bb921237/"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <router-link to="/Gallery">
+            <button class="work">
+              <h6>My Gallery</h6>
+            </button>
+          </router-link>
+        </div>
+      </div>
     </div>
-    <div class="col-md-9 text-light">
-      <h3 class="about">About Me</h3>
-      <span class="details">
-      <h4 class="fw-bold">Full name: Ashton Abrahams</h4>
-      <h4 class="fw-bold">Date of birth: 07/07/2004</h4>
-      <h4 class="fw-bold">Gender: Male</h4>
-      </span>
-      <p class="lead">Hi there! I'm Ashton. I am consistent and committed. An optimistic and artistic minded person, who has been intrigued and enthusiastic about technology ever since I was six years old.</p>
-      <p class="lead">I became interested in everything gaming and everything computers. I am friendly and confident, so working with others won't be a problem. I am always up for a challenge and will work diligently to achieve the goal.</p>
-      <p class="lead">I have many hobbies that I enjoy e.g Gaming, Art: drawing/sketching, Making music, Watching anime, Hiking, Being outdoors, Go-karting, Cars, Socialising, Reading, Chess and Paintball</p>
-      <p class="share fw-bold">Socials:</p>
-    <span class="socials">
-       <a href="https://www.facebook.com/profile.php?id=100083321873494" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-       <a href="https://www.instagram.com/ashton.m_db9/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-       <a href="https://github.com/ASHTONMDB9" target="_blank"><i class="fa-brands fa-github me-1 ms-1"></i></a>
-       <a href="https://www.linkedin.com/in/ashton-abrahams-0bb921237/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-      </span>
-    </div>
-    <router-link to="/Gallery"><button class="work w-100"><h6>My Gallery</h6></button></router-link>
   </div>
-</div>
 </template>
 
-<script>
-
-</script>
+<script></script>
 
 <style scoped>
+.about-page {
+  padding-top: 110px;
+  color: #e5e7eb;
+}
+
 .tabs {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 35px;
-  color: white;
-}
-.container {
-  margin-top: 80px;
-}
-#ash2 {
-  margin-top: -100px;
-}
-.about {
-  color: white;
-  text-decoration: underline;
-  text-decoration-color: blue;
-  font-size: 40px;
-  display: flex;
-  flex-direction: column;
-}
-.details h4 {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
+
+.nav-tabs .nav-link {
+  font-family: Inter, sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #cbd5f5;
+  border: none;
+  padding: 10px 22px;
+}
+
+.nav-tabs .nav-link.active {
+  color: #7dd3fc;
+  border-bottom: 2px solid #7dd3fc;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 60px;
+}
+
+.about-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  max-width: 1500px;
+  width: 100%;
+  background: rgba(5, 6, 10, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 28px;
+}
+
+.about-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ash2 {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  transform: translateY(-20px);
+}
+
+.about-title {
+  font-family: Space Grotesk, sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  margin-top: 80px;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #7dd3fc;
+}
+
+.details p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #cbd5f5;
+}
+
+.details span {
+  color: #7dd3fc;
+  font-weight: 600;
+}
+
+.bio p {
+  margin: 12px 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #d1d5db;
+}
+
+.socials-section {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .share {
-  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #94a3b8;
 }
-.socials i {
-  font-size: 30px;
-  color: blue;
+
+.social-icons {
+  display: flex;
+  gap: 0.7rem;
 }
-.socials i:hover {
-  transform: scale(1.5);
-  transition: all 1.5 linear;
-}
-.socials a {
-  margin-right: 10px;
-}
-.work {
-  color: blue;
+
+.social-icon {
+  width: 40px;
   height: 40px;
-  background-color: black;
-  border: 1px solid blue;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid rgba(125, 211, 252, 0.35);
+  color: #cbd5f5;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
+.social-icon:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 16px rgba(125, 211, 252, 0.35),
+    0 0 26px rgba(167, 139, 250, 0.35);
+  color: #e0f2fe;
+}
+
+.work {
+  margin-top: 22px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid rgba(125, 211, 252, 0.65);
+  color: #7dd3fc;
+  font-family: Inter, sans-serif;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
 .work:hover {
-  color: black;
-  background-color: white;
-  border: 1px solid black;
+  background: rgba(125, 211, 252, 0.12);
+  color: #e0f2fe;
+}
+
+@media (min-width: 1200px) {
+  .about-card {
+    padding: 34px;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-left {
+    order: 1;
+  }
+
+  .about-right {
+    order: 2;
+  }
 }
 </style>
- 

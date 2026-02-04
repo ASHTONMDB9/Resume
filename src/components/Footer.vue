@@ -1,126 +1,168 @@
 <template>
-      <footer class="footer fixed-bottom">
-        <!-- <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p>Ashton Abrahams Copyright &copy; 2022, All Right Reserved</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><router-link class="nav-link" to="/">Home</router-link></li>
-                                <li><router-link class="nav-link" to="/Contact">Contact</router-link></li>
-                            <div class="footer-social-icon">
-                                <h4>Follow Me:</h4>
-                                <li><a href="https://www.facebook.com/profile.php?id=100085302518838" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i></a></li>
-                                <li><a href="https://twitter.com/ASHTON_M_DB9" target="_blank"><i class="fab fa-twitter twitter-bg"></i></a></li>
-                                <li><a href="https://www.instagram.com/ashton.m_db9/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="https://github.com/ASHTONMDB9" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/ashton-abrahams-0bb921237/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                            </div>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <p class="copyright">© 2026 Ashton Abrahams — All rights reserved</p>
+      </div>
 
+      <div class="footer-right">
+        <nav class="footer-nav">
+          <router-link class="footer-link" to="/">Home</router-link>
+          <router-link class="footer-link" to="/Contact">Contact</router-link>
+        </nav>
 
-<div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p>Ashton Abrahams Copyright &copy; 2026, All Right Reserved</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><router-link class="nav-link" to="/">Home</router-link></li>
-                                <li><router-link class="nav-link" to="/Contact">Contact</router-link></li>
-
-                                <li><p>Follow Me:</p></li>
-                                <li><a href="https://www.facebook.com/profile.php?id=100085302518838" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i></a></li>
-                                <li><a href="https://twitter.com/ASHTON_M_DB9" target="_blank"><i class="fab fa-twitter twitter-bg"></i></a></li>
-                                <li><a href="https://www.instagram.com/ashton.m_db9/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="https://github.com/ASHTONMDB9" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/ashton-abrahams-0bb921237/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="footer-social">
+          <span class="follow">Follow me</span>
+          <a
+            href="https://www.facebook.com/profile.php?id=100085302518838"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://twitter.com/ASHTON_M_DB9"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/ashton.m_db9/"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/ASHTONMDB9"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ashton-abrahams-0bb921237/"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
         </div>
-
-
-      </footer>
+      </div>
+    </div>
+  </footer>
 </template>
+
 <script>
 export default {
-    components: {
-
- }
-}
+  components: {},
+};
 </script>
 <style scoped>
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 12px 24px;
+  background: rgba(5, 6, 10, 0.6);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
 
-ul {
-    margin: 0px;
-    padding: 0px;
-    /* top: 0px;
-    bottom: 0px; */
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.footer-section {
-  background-attachment: fixed;
+
+.footer-left {
+  flex: 1;
 }
-.copyright-area{
-  background: #202020;
-  padding-top: 15px;
-  padding-bottom: 5px;
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
 }
-.copyright-text p {
-  margin: 0;
-  font-size: 14px;
-  color: #878787;
+
+.footer-nav {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
 }
-.copyright-text p a{
-  color: #ff5e14;
+.copyright {
+  color: #94a3b8;
 }
-.footer-menu li {
-  display: inline-block;
-  margin-left: 30px;
+.footer-link {
+  font-family: Inter, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #cbd5f5;
+  transition: color 0.3s ease;
 }
-.footer-menu li:hover a{
-  color: blue;
+
+.footer-link:hover {
+  color: #7dd3fc;
 }
-.footer-menu li a {
-  font-size: 14px;
-  color: #878787;
+
+.follow {
+  font-family: Inter, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  color: #94a3b8;
+  text-transform: uppercase;
 }
-p {
-  color: white;
-  display: inline-block;
-  font-size: 14px;
+
+.footer-social {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
 }
-.footer-social-icon a {
-  color: white;
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid rgba(125, 211, 252, 0.35);
+  color: #cbd5f5;
+  transition: transform 0.25s ease, box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.social-icon:hover {
+  color: #e0f2fe;
+  transform: scale(1.1);
+  box-shadow: 0 0 14px rgba(125, 211, 252, 0.35),
+    0 0 26px rgba(167, 139, 250, 0.35);
+  border-color: rgba(167, 139, 250, 0.8);
+}
+
+.social-icon i {
   font-size: 16px;
 }
-.footer-social-icon i {
-  height: 100px;
-  width: 40px;
-  font-size: 25px;
-  text-align: center;
-  line-height: 38px;
-  border-radius: 50%;
-}
-.footer-social-icon i:hover {
-  transform: scale(1.2);
-  transition: all 1.5 linear smooth;
-}
 
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .footer-nav {
+    gap: 0.8rem;
+  }
+}
 </style>

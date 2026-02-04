@@ -1,120 +1,175 @@
 <template>
-<div class="container">
-  <video autoplay muted loop id="land">
-  <source src="../images/Landing.mp4" type="video/mp4">
-</video>
-    <div><h1>Hi, my name is</h1>
-    <h1>Ashton Abrahams</h1></div>
-    <h2 class="text text-center mt-1">Aspiring Full-Stack Developer</h2>
-    <h3 class="text text-center mt-1">Nothing is <span class="impossible"><span>'I</span>M<span>POSSIBLE'</span></span></h3>
-    <p class="text-white text-center">Hover between quotes for animation</p>
+  <div class="hero">
+    <video autoplay loop muted playsinline id="land">
+      <source src="../images/land.mp4" type="video/mp4" />
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="content">
+      <h1 class="intro">Hi, my name is</h1>
+      <h1 class="name">Ashton Abrahams</h1>
+
+      <h2 class="role">Aspiring Full-Stack Developer</h2>
+
+      <h3 class="quote">
+        Nothing is
+        <span class="impossible">
+          <span class="shine">'I</span>M<span class="shine">POSSIBLE'</span>
+        </span>
+      </h3>
+
+      <p class="hint">Hover between quotes</p>
     </div>
+  </div>
 </template>
 
-
 <script>
-export default {
-  
-}
+export default {};
 </script>
-<style scoped>
-#land {
-  position: fixed;
-  z-index: -5;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-.container {
-  margin-top: 285px;
 
-}
-.container h1:nth-child(1) {
-  color: white;
-  font-weight: 800;
-  font-size: 30px;
-  margin: 0 auto auto auto;
-  white-space: nowrap;
+<style scoped>
+/* Layout */
+.hero {
+  width: 100%;
   overflow: hidden;
-  width: 230px;
-  animation: type 2s steps(40,end) forwards;
-}
-.container h1:nth-child(2) {
   display: flex;
   justify-content: center;
-  opacity: 0;
-  font-family: sans-serif;
-  margin: 0 auto auto auto;
-  background: linear-gradient( black, blue, black);
-  font-weight: 800;
-  font-size: 50px;
+  align-items: center;
+  margin-top: 250px;
+}
+#land {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  filter: saturate(1.1) contrast(1.05);
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(8, 10, 20, 0.6),
+    rgba(8, 10, 20, 0.9)
+  );
+  backdrop-filter: blur(2px);
+  z-index: -1;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  animation: fadeUp 1.2s ease forwards;
+}
+.intro {
+  color: white;
+  font-weight: 500;
+  font-size: 1.3rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 240px;
+  animation: type 2s steps(30, end) forwards;
+}
+.name {
+  font-size: clamp(3rem, 6vw, 4.5rem);
+  font-weight: 900;
+  background: linear-gradient(90deg, #7dd3fc, #a78bfa, #22d3ee);
+  background-size: 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  overflow: hidden;
-  animation: move-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+  text-shadow: 0 6px 30px rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  animation: nameReveal 2.2s ease forwards 2s;
 }
-@keyframes move-animation {
-  0% {
-    background-position: 0 0;
-    opacity: 0;
-    width: 0;
+.role {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #9aa4c7;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+.quote {
+  margin-top: 1.8rem;
+  font-family: monospace;
+  font-size: 1.05rem;
+  letter-spacing: 0.35em;
+  color: red;
+}
+.impossible {
+  position: relative;
+  display: inline-flex;
+  gap: 0.15em;
+  transition: all 0.3s ease;
+}
+/* Impossible hover */
+.quote span {
+  transition: all 0.3s ease;
+}
+.quote:hover span:nth-child(1) {
+  margin-right: 8px;
+}
+.quote:hover span:nth-child(2) {
+  margin-left: 22px;
+}
+.impossible:hover {
+  color: #e0f2fe;
+  text-shadow: 0 0 8px white, 0 0 18px white, 0 0 32px white;
+  transition: transform 0.3s ease;
+}
+.impossible:hover span {
+  transform: translateY(-1px);
+}
+/* Hint */
+.hint {
+  margin-top: 0.8rem;
+  font-size: 0.7rem;
+  color: white;
+  opacity: 0.8;
+}
+@keyframes shine {
+  from {
+    transform: translateX(-120%);
   }
-  1% {
-    background-position: 0 0;
-    opacity: 1;
-    border-right: 1px solid black;
-  }
-  50% {
-    background-position: 150px 0;
-    opacity: 1;
-    border-right: 1px solid black;
-  }
-  100% {
-    background-position: 500px 0;
-    opacity: 1;
-    border-right: 1px solid black;
+  to {
+    transform: translateX(120%);
   }
 }
 @keyframes type {
-  0% {
+  from {
     width: 0;
   }
-  1%, 99%{
-    border-right: 1px solid black;
-  }
-  100%{
-    border-right: none;
+  to {
+    width: 240px;
   }
 }
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
+@keyframes nameReveal {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+    background-position: 0%;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    background-position: 100%;
   }
 }
-h2 {
-  color: grey;
-  text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 40px blue;
-}
-h3{
-  color: red;
-  padding-top: 20px;
-  font-weight: bold;
-  font-family: monospace;
-  letter-spacing: 7px;
-}
-h3 span{
-  transition: .5s linear
-}
-h3:hover span:nth-child(1){
-  margin-right: 5px
-}
-h3:hover span:nth-child(2){
-  margin-left: 30px
-}
-.impossible:hover {
-  color: #fff;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 </style>
