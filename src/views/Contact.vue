@@ -1,264 +1,250 @@
 <template>
-<div class="container">
-                <div class="contact-parent">
-                    <div class="contact-child child1">
-                        <p>
-                            <i class="fas fa-map-marker-alt"></i> Address <br />
-                            <span> Valhalla Park
-                                <br />
-                                Cape Town, CPT
-                            </span>
-                        </p>
+  <div class="contact-page">
+    <div class="contact-card">
+      <!-- Left: Info -->
+      <div class="contact-info">
+        <h3 class="info-title">Get In Touch</h3>
 
-                        <p>
-                            <i class="fas fa-phone-alt"></i> Let's Talk <br />
-                            <span> 068 196 6648</span>
-                        </p>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <span class="label">Address</span>
+            <span class="value">Valhalla Park<br />Cape Town, CPT</span>
+          </div>
+        </div>
 
-                        <p>
-                            <i class=" far fa-envelope"></i> Queries <br />
-                            <span>ashtonabrahams563@gmail.com</span>
-                        </p>
-                    </div>
+        <div class="info-item">
+          <i class="fas fa-phone-alt"></i>
+          <div>
+            <span class="label">Let's Talk</span>
+            <span class="value">068 196 6648</span>
+          </div>
+        </div>
 
-                    <div class="contact-child child2">
-                        <div class="inside-contact">
-                            <h2>Contact Me</h2>
-                            <h3>
-                               <span id="confirm"></span>
-                            </h3>
-                         <form action="https://formspree.io/f/mzboygza" method="POST">
-                            <p>Name *</p>
-                            <input type="text" name="Name" required autocomplete placeholder=" Your Name">
+        <div class="info-item">
+          <i class="far fa-envelope"></i>
+          <div>
+            <span class="label">Queries</span>
+            <span class="value">ashtonabrahams563@gmail.com</span>
+          </div>
+        </div>
+      </div>
 
-                            <p>Email *</p>
-                            <input type="email" name="Email" required autocomplete placeholder="Your Email">
+      <!-- Divider -->
+      <div class="divider"></div>
 
-                            <p>Phone *</p>
-                            <input type="tel" name="Phone" placeholder="Your Phone">
+      <!-- Right: Form -->
+      <div class="contact-form">
+        <h2>Contact Me</h2>
 
-                            <p>Subject *</p>
-                            <input type="text" name="Subject" required placeholder="Subject">
+        <form action="https://formspree.io/f/mzboygza" method="POST">
+          <div class="field">
+            <label>Name *</label>
+            <input type="text" name="Name" required placeholder="Your Name" />
+          </div>
 
-                            <p>Message *</p>
-                            <textarea type="text" name="Message" placeholder="Your Message"></textarea>
-                            
-                            <button>send</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-    
+          <div class="field">
+            <label>Email *</label>
+            <input
+              type="email"
+              name="Email"
+              required
+              placeholder="Your Email"
+            />
+          </div>
+
+          <div class="field">
+            <label>Phone</label>
+            <input type="tel" name="Phone" placeholder="Your Phone" />
+          </div>
+
+          <div class="field">
+            <label>Subject *</label>
+            <input type="text" name="Subject" required placeholder="Subject" />
+          </div>
+
+          <div class="field">
+            <label>Message *</label>
+            <textarea
+              name="Message"
+              rows="5"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-export default {
-    
-}
+export default {};
 </script>
+
 <style scoped>
-
-.contact-parent{
-    display:flex;
-    margin:80px 0;
+.contact-page {
+  padding-top: 110px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  color: #e5e7eb;
 }
 
-.contact-child{
-    display:flex;
-    flex:1;
-    box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
+/* Main Card */
+.contact-card {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 32px;
+  display: grid;
+  grid-template-columns: 1fr auto 1.4fr;
+  gap: 2.5rem;
+
+  background: rgba(5, 6, 10, 0.6);
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  padding: 60px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.5);
 }
 
-.child1{
-    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
-    background-size:cover;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
-    color:#fff;
-    padding:100px 0;
+/* Left Info */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/Parallax.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  gap: 28px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
-.child1 p{
-    padding-left:20%;
-    font-size:20px;
-    text-shadow:0px 0px 2px #000;
+.info-title {
+  font-family: Space Grotesk, sans-serif;
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #7dd3fc;
+  margin-bottom: 10px;
 }
 
-.child1 p span{
-    font-size:16px;
-    color:#9df2fd;
-}
-
-.child2{
-    flex-direction:column;
-    justify-content:space-around;
-    align-items:center;
-    background-color: gray;
-}
-
-.inside-contact{
-    width:90%;
-    margin:0 auto;
-}
-
-.inside-contact h2{
-    text-transform:uppercase;
-    text-align:center;
-    margin-top:50px;
-}
-
-.inside-contact h3{
-    text-align:center;
-    font-size:16px;
-    color:#0085e2;
-}
-
-.inside-contact input, .inside-contact textarea{
-    width:100%;
-    background-color:#eee;
-    border:1px solid rgba(0,0,0,0.48);
-    padding:5px 10px;
-    margin-bottom:20px;
-}
-
-.inside-contact input[type=submit]{
-    background-color:#000;
-    color:#fff;
-    transition:0.2s;
-    border:2px solid #000;
-    margin:30px 0;
-}
-
-.inside-contact input[type=submit]:hover{
-    background-color:#fff;
-    color:#000;
-    transition:0.2s;
-}
-
-@media screen and (max-width:991px){
-    .contact-parent{
-        display:block;
-        width:100%;
-    }
-
-    .child1{
-        display:none;
-    }
-
-    .child2{
-        background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
-        background-size:cover;
-    }
-
-    .inside-contact input, .inside-contact textarea{
-        background-color:#fff;
-    }
+.info-item {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  text-shadow:
+    0 0 6px rgba(125, 211, 252, 0.8),
+    0 0 10px rgba(167, 139, 250, 0.8);
 }
 
 
+.info-item i {
+  font-size: 1.4rem;
+  color: #7dd3fc;
+  margin-top: 4px;
+}
 
+.label {
+  font-family: Inter, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #94a3b8;
+}
 
+.value {
+  display: block;
+  margin-top: 6px;
+  font-size: 1rem;
+  color: #cbd5f5;
+}
 
-/* .container-fluid {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+/* Divider */
+.divider {
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(125, 211, 252, 0.5),
+    transparent
+  );
 }
-#contact {
-    color: white;
-    margin-top: 150px;
-    text-decoration: underline 3px;
-    text-decoration-color: blue;
+
+/* Form */
+.contact-form h2 {
+  font-family: Space Grotesk, sans-serif;
+  font-size: 2.1rem;
+  margin-bottom: 26px;
+  text-decoration: underline;
+  text-decoration-color: #7dd3fc;
 }
-.container-fluid .social {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center; 
+
+.field {
+  margin-bottom: 22px;
 }
-.container-fluid .social i {
-    width: 55px;
-    color: blue;
-    height: 55px;
-    border-radius: 50%;
-    border: 1px solid blue;
-    line-height: 55px;
-    font-size: 25px;
-    transition: .5s ease;
-    margin-right: 20px;
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #94a3b8;
 }
-.container-fluid .social a {
-    margin-right: 20px;
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: rgba(15, 23, 42, 0.65);
+  border: 1px solid rgba(125, 211, 252, 0.35);
+  color: #e5e7eb;
+  font-size: 0.95rem;
 }
-.container-fluid .social i:last-child {
-    margin-right: 0;
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #7dd3fc;
+  box-shadow: 0 0 12px rgba(125, 211, 252, 0.35);
 }
-.container-fluid .social i:hover {
-    border-color: blue;
-    box-shadow: 0 0 20px blue;
-    transform: scale(1.2)
+
+/* Button */
+.contact-form button {
+  margin-top: 12px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #7dd3fc, #a78bfa);
+  color: #020617;
+  border: none;
+  font-family: Inter, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-.container-fluid form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+.contact-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 18px rgba(125, 211, 252, 0.55);
 }
-.container-fluid form input {
-    height: 40px;
-    background-color: transparent;
-    padding: 5px 0px;
-    border: 0;
-    border-bottom: 1px solid blue;
-    margin-bottom: 30px;
-    color: white;
+
+/* Responsive */
+@media (max-width: 900px) {
+  .contact-card {
+    grid-template-columns: 1fr;
+    padding: 40px;
+  }
+
+  .divider {
+    display: none;
+  }
 }
-.container-fluid form textarea {
-    background-color: transparent;
-    padding: 5px 0px;
-    border: 0;
-    border: 1px solid black;
-    margin-bottom: 30px;
-    height: 187px;
-    width: 100%;
-    color: white;
-}
-.container-fluid form input::-webkit-input-placeholder,
-.container-fluid form textarea::-webkit-input-placeholder {
-    color: blue;
-    text-transform: capitalize;
-}
-.container-fluid form [name="name"],
-.container-fluid form [name="email"],
-.container-fluid form [name="phone"] {
-    width: 31%;
-}
-.container-fluid form [name="subject"] {
-    width: 100%;
-    margin-bottom: 80px;
-}
-.container-fluid form input,textarea:focus {
-    outline: none;
-} */
-button {
-    background-color: transparent;
-    padding: 10px 0;
-    width: 100%;
-    border: 1px solid blue;
-    color: blue;
-    text-transform: uppercase;
-    overflow: hidden;
-    margin-bottom: 10px;
-}
-button:hover {
-    color: blue;
-    border-color: blue;
-    box-shadow: 0 0 20px blue;
-}
-/* iframe {
-    padding-right: 10px;
-    margin-top: 120px;
-    filter: invert(100%);
-} */
 </style>

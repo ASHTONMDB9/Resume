@@ -1,28 +1,45 @@
 <template>
-<div class="tabs">
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <router-link class="nav-link" aria-current="page" to="/Resume"><h6>Resume</h6></router-link>
-  </li>
-  <li class="nav-item">
-    <router-link class="nav-link  active" to="/Testimonials"><h6>Testimonials</h6></router-link>
-  </li>
-</ul>
-
-</div>
-
-<div class="container-fluid">
-<div id="tests" class="" v-for="testimonial of testimonials" :key="testimonial.id">
-<div id="list" class="card text-light mt-3 ms-2 me-2" style="width: 22rem; height: 25rem;">
-    <img id="propic" v-bind:src="testimonial.image" class="face face--front card-img" style="height: 25rem; object-fit: cover;">
-    <div class="card-body">
-    <h2 class="face face--back card-title mt-5">{{ testimonial.name }}</h2>
-    <p class="face face--back">{{ testimonial.testimony }}</p>
+  <div class="testimonials-page">
+    <!-- Tabs -->
+    <div class="tabs">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <router-link class="nav-link" to="/Resume">
+            <h6>Resume</h6>
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link active" to="/Testimonials">
+            <h6>Testimonials</h6>
+          </router-link>
+        </li>
+      </ul>
     </div>
-    </div>
-</div>
-</div>
+
+    <!-- Grid -->
+    <section class="testimonials-grid">
+      <article
+        v-for="testimonial in testimonials"
+        :key="testimonial.id"
+        class="testimonial-card"
+      >
+        <img
+          :src="testimonial.image"
+          :alt="testimonial.name"
+          class="profile-img"
+        />
+
+        <h3>{{ testimonial.name }}</h3>
+        <span class="role">{{ testimonial.role }}</span>
+
+        <p class="quote">
+          “{{ testimonial.testimony }}”
+        </p>
+      </article>
+    </section>
+  </div>
 </template>
+
 <script>
 export default {
   data() {
@@ -38,7 +55,7 @@ export default {
       },
       {
         id: "2",
-        image: "https://i.postimg.cc/Hsq7spr4/Ricardo-1-removebg-preview.png",
+        image: "https://i.postimg.cc/QMCsT3QC/Ricardo-2.png",
         name: "Ricardo Moses",
         testimony: "Ashton is a diligent worker, always stays focused and works hard. He's kind and open-minded personality makes him a pleasure to be around in a work environment.",
         role: "Colleague",
@@ -76,14 +93,14 @@ export default {
       },
       {
         id: "7",
-        image: "https://i.postimg.cc/bvwmFpzV/1663691506237-removebg-preview.png",
+        image: "https://i.postimg.cc/k5p1hrk1/Jesse-2.png",
         name: "Jesse Spence",
         testimony: "Ashton is extremely creative, artistic and has a great eye for design. This combined with his friendly attitude and good communication makes him an incredible person to work with. I am extremely grateful to have worked and learned along side him.",
         role: "Colleague",
       },
       {
         id: "8",
-        image: "https://i.postimg.cc/jqXpph9g/Charles4-removebg-preview.png",
+        image: "https://i.postimg.cc/vmfgCfKj/Charles-2.png",
         name: "Abdus-Samad Charles",
         testimony: "Ashton is a trustworthy and hardworking individual who enjoys solving problems and helping others. He has a very calm demeaner and is easily approachable.",
         role: "Colleague",
@@ -94,64 +111,108 @@ export default {
 }
 </script>
 <style scoped>
+.testimonials-page {
+  padding-top: 90px;
+  padding-bottom: 80px;
+  color: #e5e7eb;
+}
+
+/* Tabs (reuse your existing language) */
 .tabs {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 35px;
-  color: white;
-}
-.container-fluid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 80px;
-}
-#list{
-  position: relative;
-  margin: 0.5rem;
-  border-radius: 0.8rem;
-  background-color: black;
-}
-#list:hover {
-  box-shadow: -5px -5px 10px 5px blue, 5px 5px 10px 5px blue;
-  transition: all 0.5s linear;
-  z-index: 20;
-}
-.card-title {
-  text-decoration: underline 3px;
-  text-decoration-color: blue;
+  margin-bottom: 50px;
 }
 
-.face {
+.nav-tabs .nav-link {
+  font-family: Inter, sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #cbd5f5;
+  border: none;
+  padding: 10px 22px;
+}
+
+.nav-tabs .nav-link.active {
+  color: #7dd3fc;
+  border-bottom: 2px solid #7dd3fc;
+}
+
+/* Grid */
+.testimonials-grid {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2.4rem;
+}
+
+/* Card */
+.testimonial-card {
+  background: rgba(5, 6, 10, 0.55);
+  border-radius: 20px;
+  border: 1px solid rgba(125, 211, 252, 0.25);
+  backdrop-filter: blur(14px);
+  padding: 34px 28px;
+  text-align: center;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 22px rgba(125, 211, 252, 0.4),
+    0 0 32px rgba(167, 139, 250, 0.35);
+}
+
+/* Image */
+.profile-img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 1px solid rgba(125, 211, 252, 0.35);
+  padding: 10px;
+  margin-bottom: 18px;
+  background: rgba(5, 6, 10, 0.7);
+}
+
+/* Text */
+.testimonial-card h3 {
+  font-family: Space Grotesk, sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.role {
   display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 0.8rem;
-  background-size: cover;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  transition: transform 0.5s ease-in-out;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #7dd3fc;
+  margin-bottom: 16px;
 }
 
-.face--front {
-  background-color: transparent;
+.quote {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #cbd5f5;
+  font-style: italic;
 }
 
-.face--back {
-  margin-top: 150px;
-  background-color: black;
-  transform: rotateY(180deg);
-}
+/* Responsive polish */
+@media (max-width: 560px) {
+  .testimonial-card {
+    padding: 28px 22px;
+  }
 
-.card:hover .face--front {
-  transform: rotateY(-180deg);
+  .profile-img {
+    width: 95px;
+    height: 95px;
+  }
 }
-
-.card:hover .face--back {
-  transform: rotateY(0deg);
-}
-
 </style>
