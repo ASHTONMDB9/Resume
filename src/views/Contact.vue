@@ -136,11 +136,9 @@ export default {};
   display: flex;
   gap: 18px;
   align-items: flex-start;
-  text-shadow:
-    0 0 6px rgba(125, 211, 252, 0.8),
+  text-shadow: 0 0 6px rgba(125, 211, 252, 0.8),
     0 0 10px rgba(167, 139, 250, 0.8);
 }
-
 
 .info-item i {
   font-size: 1.4rem;

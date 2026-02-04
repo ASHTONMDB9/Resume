@@ -45,19 +45,19 @@
 export default {
   components: {},
   mounted() {
-    const nav = document.getElementById("nav")
+    const nav = document.getElementById("nav");
 
     const onScroll = () => {
       if (window.scrollY > 20) {
-        nav.classList.add("nav-scrolled")
+        nav.classList.add("nav-scrolled");
       } else {
-        nav.classList.remove("nav-scrolled")
+        nav.classList.remove("nav-scrolled");
       }
-    }
+    };
 
-    window.addEventListener("scroll", onScroll)
-  }
-}
+    window.addEventListener("scroll", onScroll);
+  },
+};
 </script>
 
 <style scoped>
