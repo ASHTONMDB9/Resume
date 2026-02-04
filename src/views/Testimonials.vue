@@ -53,7 +53,7 @@ export default {
         },
         {
           id: "2",
-          image: "https://i.postimg.cc/hPk0yf9Z/Charles-2.png",
+          image: "https://i.postimg.cc/CL34PzjP/Ricardo-2.png",
           name: "Ricardo Moses",
           testimony:
             "Ashton is a diligent worker, always stays focused and works hard. He's kind and open-minded personality makes him a pleasure to be around in a work environment.",

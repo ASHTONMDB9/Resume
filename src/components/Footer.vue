@@ -6,47 +6,62 @@
       </div>
 
       <div class="footer-right">
-        <nav class="footer-nav">
+        <nav class="footer-nav" aria-label="Footer navigation">
           <router-link class="footer-link" to="/">Home</router-link>
-          <router-link class="footer-link" to="/Contact">Contact</router-link>
+          <router-link class="footer-link" to="/contact">Contact</router-link>
         </nav>
 
-        <div class="footer-social">
+        <div class="footer-social" aria-label="Social links">
           <span class="follow">Follow me</span>
+
           <a
             href="https://www.facebook.com/profile.php?id=100085302518838"
             target="_blank"
+            rel="noopener noreferrer"
             class="social-icon"
+            aria-label="Facebook"
           >
             <i class="fab fa-facebook-f"></i>
           </a>
+
           <a
             href="https://twitter.com/ASHTON_M_DB9"
             target="_blank"
+            rel="noopener noreferrer"
             class="social-icon"
+            aria-label="Twitter"
           >
             <i class="fab fa-twitter"></i>
           </a>
+
           <a
             href="https://www.instagram.com/ashton.m_db9/"
             target="_blank"
+            rel="noopener noreferrer"
             class="social-icon"
+            aria-label="Instagram"
           >
-            <i class="fa-brands fa-instagram"></i>
+            <i class="fab fa-instagram"></i>
           </a>
+
           <a
             href="https://github.com/ASHTONMDB9"
             target="_blank"
+            rel="noopener noreferrer"
             class="social-icon"
+            aria-label="GitHub"
           >
-            <i class="fa-brands fa-github"></i>
+            <i class="fab fa-github"></i>
           </a>
+
           <a
             href="https://www.linkedin.com/in/ashton-abrahams-0bb921237/"
             target="_blank"
+            rel="noopener noreferrer"
             class="social-icon"
+            aria-label="LinkedIn"
           >
-            <i class="fa-brands fa-linkedin"></i>
+            <i class="fab fa-linkedin"></i>
           </a>
         </div>
       </div>
@@ -56,9 +71,10 @@
 
 <script>
 export default {
-  components: {},
+  name: "AppFooter",
 };
 </script>
+
 <style scoped>
 .footer {
   position: fixed;
@@ -95,9 +111,11 @@ export default {
   gap: 1.2rem;
   align-items: center;
 }
+
 .copyright {
   color: #94a3b8;
 }
+
 .footer-link {
   font-family: Inter, sans-serif;
   font-size: 0.75rem;
@@ -147,22 +165,5 @@ export default {
 
 .social-icon i {
   font-size: 15px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .footer-inner {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .footer-right {
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .footer-nav {
-    gap: 0.8rem;
-  }
 }
 </style>
