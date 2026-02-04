@@ -240,9 +240,5 @@ export default {};
     grid-template-columns: 1fr;
     padding: 40px;
   }
-
-  .divider {
-    display: none;
-  }
 }
 </style>

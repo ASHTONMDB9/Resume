@@ -75,7 +75,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .footer {
   position: fixed;
   bottom: 0;
@@ -138,7 +138,7 @@ export default {
 }
 
 .footer-social {
-  display: flex;
+  display: flex !important;
   gap: 0.7rem;
   align-items: center;
 }
@@ -146,7 +146,7 @@ export default {
 .social-icon {
   width: 36px;
   height: 36px;
-  display: grid;
+  display: grid !important;
   place-items: center;
   border-radius: 50%;
   border: 1px solid rgba(125, 211, 252, 0.35);
