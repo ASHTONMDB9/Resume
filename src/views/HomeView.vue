@@ -36,7 +36,7 @@ export default {};
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 250px;
+  margin-top: 300px;
 }
 #land {
   position: absolute;

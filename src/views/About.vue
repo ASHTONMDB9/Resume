@@ -38,16 +38,31 @@
             <p>
               Hi there! I'm Ashton — a consistent and committed developer with
               an optimistic and artistic mind. I’ve been fascinated with
-              technology since I was six.
+              technology and computers since I was six.
             </p>
             <p>
               I love gaming, computers, and creative problem solving. I’m
-              confident working with others and I always welcome challenges —
-              I’m a hard worker who finishes what I start.
+              confident and I always welcome challenges — I’m a hard worker who
+              finishes what I start and enjoy working with others so getting
+              along with others comes naturally to me.
             </p>
             <p>
-              Outside of coding, I enjoy art, music, anime, hiking, go-karting,
-              cars, chess, paintball, and socialising.
+              Coding is one of my many passions and would love to pursue that
+              further as it stimulates my creative mind and creating a working
+              project/website excites me.
+            </p>
+            <p>
+              An organized and dependable candidate successful at managing
+              multiple priorities with a positive attitude and willingness to
+              take on added responsibilities to meet team goals.
+            </p>
+            <div class="details">
+              <p><span>Some of my hobbies include:</span></p>
+            </div>
+            <p>
+              Gaming, Art: drawing/sketching/painting, Making music, Watching
+              anime, Hiking, Being outdoors, Go-karting, Cars, Socialising,
+              Reading, Chess, Coding
             </p>
           </div>
 
@@ -142,7 +157,7 @@
   border: 1px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
   border-radius: 18px;
-  padding: 28px;
+  padding: 8px;
 }
 
 .about-left {
