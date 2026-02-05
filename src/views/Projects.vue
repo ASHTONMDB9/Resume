@@ -75,7 +75,7 @@ export default {
         },
         {
           id: 6,
-          image: "https://i.postimg.cc/65Z88dW5/phantomrealm.png",
+          image: "https://i.postimg.cc/Pxp6LV98/2026-02-05-18-13-47-phantomrealm-Opera.png",
           name: "PhantomRealm",
           description: "A project creating a company website",
           github:
@@ -100,7 +100,7 @@ export default {
         },
         {
           id: 9,
-          image: "https://i.postimg.cc/7Yz55gHq/xyz.png",
+          image: "https://i.postimg.cc/gJXMwtQL/2026-02-05-18-14-24-XYZtech-Opera.png",
           name: "XYZ Tech",
           description: "A team project creating a company website",
           github: "https://github.com/ASHTONMDB9/EOMP",
