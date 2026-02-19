@@ -17,7 +17,7 @@
           <a
             href="https://www.facebook.com/profile.php?id=100085302518838"
             target="_blank"
-            class="social-icon"
+            class="link-icon"
             aria-label="Facebook"
           >
             <i class="fab fa-facebook-f"></i>
@@ -26,7 +26,7 @@
           <a
             href="https://twitter.com/ASHTON_M_DB9"
             target="_blank"
-            class="social-icon"
+            class="link-icon"
             aria-label="Twitter/X"
           >
             <i class="fab fa-twitter"></i>
@@ -36,7 +36,7 @@
             href="https://www.instagram.com/ashton.m_db9/"
             target="_blank"
             rel="noopener noreferrer"
-            class="social-icon"
+            class="link-icon"
             aria-label="Instagram"
           >
             <i class="fab fa-instagram"></i>
@@ -46,7 +46,7 @@
             href="https://github.com/ASHTONMDB9"
             target="_blank"
             rel="noopener noreferrer"
-            class="social-icon"
+            class="link-icon"
             aria-label="GitHub"
           >
             <i class="fab fa-github"></i>
@@ -56,8 +56,8 @@
             href="https://www.linkedin.com/in/ashton-abrahams-0bb921237/"
             target="_blank"
             rel="noopener noreferrer"
-            class="social-icon"
-            aria-label="Linked In"
+            class="link-icon"
+            aria-label="LinkedIn"
           >
             <i class="fab fa-linkedin"></i>
           </a>
@@ -139,7 +139,7 @@ export default {};
   align-items: center;
 }
 
-.social-icon {
+.link-icon {
   width: 36px;
   height: 36px;
   display: grid;
@@ -152,7 +152,7 @@ export default {};
     border-color 0.25s ease;
 }
 
-.social-icon:hover {
+.link-icon:hover {
   color: #e0f2fe;
   transform: scale(1.1);
   box-shadow: 0 0 14px rgba(125, 211, 252, 0.35),
@@ -160,7 +160,7 @@ export default {};
   border-color: rgba(167, 139, 250, 0.8);
 }
 
-.social-icon i {
+.link-icon i {
   font-size: 15px;
 }
 </style>
