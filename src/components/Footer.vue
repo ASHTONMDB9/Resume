@@ -27,7 +27,7 @@
             href="https://twitter.com/ASHTON_M_DB9"
             target="_blank"
             class="social-icon"
-            aria-label="Twitter"
+            aria-label="Twitter/X"
           >
             <i class="fab fa-twitter"></i>
           </a>
@@ -57,7 +57,7 @@
             target="_blank"
             rel="noopener noreferrer"
             class="social-icon"
-            aria-label="LinkedIn"
+            aria-label="Linked In"
           >
             <i class="fab fa-linkedin"></i>
           </a>
