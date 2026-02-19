@@ -37,7 +37,7 @@
       <div class="contact-form">
         <h2>Contact Me</h2>
 
-        <form action="https://formspree.io/f/mzboygza" method="POST">
+        <form action="https://formspree.io/f/mkneonwq" method="POST">
           <div class="field">
             <label>Name *</label>
             <input type="text" name="Name" required placeholder="Your Name" />

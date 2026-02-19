@@ -118,14 +118,14 @@ body {
 ::-webkit-scrollbar-track {
   border-radius: 50px;
   background: black;
-  border: 1px solid blue;
+  border: 1px solid #7dd3fc;
 }
 ::-webkit-scrollbar-thumb {
-  background: blue;
+  background: rgba(167, 139, 250, 0.9);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: blue;
+  background: rgba(167, 139, 250, 0.4);
   border: 1px solid black;
 }
 </style>
