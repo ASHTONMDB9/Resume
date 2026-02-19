@@ -28,10 +28,10 @@
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>Data Monitor</h3>
-          <span class="timeline-time">(2024 – 2025)</span>
           <p class="timeline-company">
             Arch Retail Solutions / Spinnaker Software
           </p>
+          <span class="timeline-time">(2024 – 2025)</span>
           <ul>
             <li>
               Utilized advanced software applications for efficient data
@@ -58,10 +58,10 @@
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>First Line Support/Application Specialist</h3>
-          <span class="timeline-time">(2023 – 2024)</span>
           <p class="timeline-company">
             Arch Retail Solutions / Spinnaker Software
           </p>
+          <span class="timeline-time">(2023 – 2024)</span>
           <ul>
             <li>
               Supported company objectives through consistent customer service
@@ -93,8 +93,8 @@
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>Full-Stack Developer</h3>
-          <span class="timeline-time">(2022 – 2023)</span>
           <p class="timeline-company">Life Choices Academy — Intern</p>
+          <span class="timeline-time">(2022 – 2023)</span>
           <ul>
             <li>
               Studied user requirements to gain strong understanding of project
@@ -136,8 +136,8 @@
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>Assistant Lecturer</h3>
+          <p class="timeline-company">Life Choices Academy</p>
           <span class="timeline-time">(2023)</span>
-          <p class="timeline-company">Life Choices</p>
           <ul>
             <li>An assistant lecturer for the new students that started.</li>
             <li>
@@ -156,8 +156,8 @@
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>Grizzly New Marketing</h3>
-          <span class="timeline-time">(2022)</span>
           <p class="timeline-company">SEO Internship</p>
+          <span class="timeline-time">(2022)</span>
           <ul>
             <li>
               Hand picked to complete a 4 month course alonside 19 other
@@ -184,8 +184,8 @@
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>Life Choices Coding Academy</h3>
+          <p class="timeline-company">Tertiary Education</p>
           <span class="timeline-time">(2022 – 2023)</span>
-          <p class="timeline-company">Education</p>
           <ul>
             <li>
               Started the Life Choices Academy Coding Course in 2022, class 1 of
@@ -213,8 +213,8 @@
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>Leader's Quest</h3>
-          <span class="timeline-time">(2020 – 2021)</span>
           <p class="timeline-company">Leadership Training</p>
+          <span class="timeline-time">(2020 – 2021)</span>
           <ul>
             <li>
               I was a part of Life Choices' Leader's Quest in 2020 which was an
@@ -242,8 +242,8 @@
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>XO Africa Travel Agency</h3>
-          <span class="timeline-time">(2019)</span>
           <p class="timeline-company">Volunteer Work</p>
+          <span class="timeline-time">(2019)</span>
           <ul>
             <li>Assisted with event planning and travel organisation.</li>
             <li>Supported booking management and logistics.</li>
@@ -255,8 +255,8 @@
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>Valhalla Park Public Library</h3>
-          <span class="timeline-time">(2018)</span>
           <p class="timeline-company">Volunteer Work</p>
+          <span class="timeline-time">(2018)</span>
           <ul>
             <li>
               I volunteered at my local library and helped pack the shelves and
@@ -273,8 +273,8 @@
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>Alexander Sinton High School</h3>
+          <p class="timeline-company">Secondary Education</p>
           <span class="timeline-time">(2016 – 2021)</span>
-          <p class="timeline-company">High School Matric Certificate</p>
           <div class="skills-tags">
             <span>Business Studies</span><span>Economics</span
             ><span>Visual Art</span><span>Mathematics</span><span>English</span
@@ -287,8 +287,8 @@
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>Silverlea Primary School</h3>
+          <p class="timeline-company">Primary Education</p>
           <span class="timeline-time">(2009 – 2015)</span>
-          <p class="timeline-company">Education</p>
         </div>
       </div>
     </section>
@@ -415,7 +415,6 @@ export default {};
 .timeline-time {
   color: #94a3b8;
   font-weight: 600;
-  margin-left: 8px;
 }
 
 .timeline-company {

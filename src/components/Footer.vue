@@ -110,6 +110,7 @@ export default {};
 
 .copyright {
   color: #94a3b8;
+  margin: 0;
 }
 
 .footer-link {
