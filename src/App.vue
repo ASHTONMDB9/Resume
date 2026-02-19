@@ -118,10 +118,10 @@ body {
 ::-webkit-scrollbar-track {
   border-radius: 50px;
   background: black;
-  border: 1px solid #7dd3fc;
+  border: 1px solid rgba(167, 139, 250, 0.9);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(167, 139, 250, 0.9);
+  background: #7dd3fc;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
