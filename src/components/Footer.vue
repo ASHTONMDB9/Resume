@@ -11,7 +11,7 @@
           <router-link class="footer-link" to="/contact">Contact</router-link>
         </nav>
 
-        <div class="footer-socials">
+        <div class="footer-connect">
           <span class="follow">Follow me</span>
 
           <a
@@ -133,8 +133,8 @@ export default {};
   text-transform: uppercase;
 }
 
-.footer-socials {
-  display: flex !important;
+.footer-connect {
+  display: flex;
   gap: 0.7rem;
   align-items: center;
 }
