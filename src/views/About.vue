@@ -226,6 +226,7 @@
   height: 40px;
   display: grid;
   place-items: center;
+  text-decoration: none;
   border-radius: 50%;
   border: 1px solid rgba(125, 211, 252, 0.35);
   color: #cbd5f5;

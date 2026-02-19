@@ -11,7 +11,7 @@
           <router-link class="footer-link" to="/contact">Contact</router-link>
         </nav>
 
-        <div class="footer-socials" aria-label="Social links">
+        <div class="footer-socials">
           <span class="follow">Follow me</span>
 
           <a
@@ -88,7 +88,7 @@ export default {};
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -134,7 +134,7 @@ export default {};
 }
 
 .footer-socials {
-  display: flex;
+  display: flex !important;
   gap: 0.7rem;
   align-items: center;
 }
@@ -142,11 +142,12 @@ export default {};
 .social-icon {
   width: 36px;
   height: 36px;
-  display: grid !important;
+  display: grid;
   place-items: center;
   border-radius: 50%;
   border: 1px solid rgba(125, 211, 252, 0.35);
   color: #cbd5f5;
+  text-decoration: none;
   transition: transform 0.25s ease, box-shadow 0.25s ease,
     border-color 0.25s ease;
 }
