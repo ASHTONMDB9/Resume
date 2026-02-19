@@ -128,7 +128,7 @@ export default {
   computed: {
     gridStyle() {
       const cols = this.gallery
-        .map((_, i) => (i === this.activeIndex ? "500fr" : "10fr"))
+        .map((_, i) => (i === this.activeIndex ? "220fr" : "10fr"))
         .join(" ");
 
       return {
@@ -211,7 +211,7 @@ export default {
 .box {
   position: relative;
   background: var(--img) center center no-repeat;
-  background-size: contain;
+  background-size: cover;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
@@ -221,7 +221,7 @@ export default {
 .label {
   position: absolute;
   bottom: 18px;
-  left: 18px;
+  left: 5px;
   background: rgba(0, 0, 0, 0.7);
   color: #60a5fa;
   padding: 10px 12px;

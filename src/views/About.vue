@@ -252,7 +252,9 @@
   text-transform: uppercase;
   transition: background 0.25s ease, color 0.25s ease;
 }
-
+.work h6{
+  margin: 5px;
+}
 .work:hover {
   background: rgba(125, 211, 252, 0.12);
   color: #e0f2fe;
