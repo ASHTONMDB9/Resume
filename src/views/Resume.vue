@@ -322,7 +322,7 @@ export default {
         {
           id: 1,
           title: "Resume",
-          file: "/certificates/Ashton_Abrahams_Resume.pdf",
+          file: "/certificates/Ashton Resume.pdf",
         },
       ],
     };
