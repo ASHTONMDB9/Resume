@@ -37,14 +37,14 @@
           <div class="bio">
             <p>
               Hi there! I'm Ashton — a consistent and committed developer with
-              an optimistic and artistic mind. I’ve been fascinated with
+              an optimistic and artistic mind. I've been fascinated with
               technology and computers since I was six.
             </p>
             <p>
-              I love gaming, computers, and creative problem solving. I’m
-              confident and I always welcome challenges — I’m a hard worker who
-              finishes what I start and enjoy working with others so getting
-              along with others comes naturally to me.
+              I love gaming, computers, and creative problem solving. I'm
+              confident and I always welcome challenges — I'm a hard worker who
+              finishes what I start and enjoy working with others so working
+              along with a team won't be an issue.
             </p>
             <p>
               Coding is one of my many passions and would love to pursue that
@@ -52,7 +52,7 @@
               project/website excites me.
             </p>
             <p>
-              An organized and dependable candidate successful at managing
+              I am an organized and dependable candidate successful at managing
               multiple priorities with a positive attitude and willingness to
               take on added responsibilities to meet team goals.
             </p>

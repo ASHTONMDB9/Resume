@@ -20,6 +20,22 @@
       <h2 class="subtitle">Aspiring Full-Stack Developer</h2>
     </header>
 
+    <div class="work-buttons">
+      <article v-for="res in resume" :key="res.id" class="certificate-card">
+        <a :href="res.file" download target="_blank">
+          <button class="work">
+            <h6>Download Resume</h6>
+          </button>
+        </a>
+      </article>
+
+      <router-link to="/Certificates">
+        <button class="work">
+          <h6>View Certificates</h6>
+        </button>
+      </router-link>
+    </div>
+
     <section class="timeline">
       <div class="timeline-line"></div>
 
@@ -49,7 +65,8 @@
           </ul>
           <div class="skills-tags">
             <span>Data Flow</span><span>Data management</span
-            ><span>Data analysis</span>
+            ><span>Data analysis</span><span>Data Sync</span
+            ><span>Business Intelligence</span>
           </div>
         </div>
       </div>
@@ -92,6 +109,26 @@
       <div class="timeline-item left">
         <div class="timeline-dot"></div>
         <div class="timeline-content">
+          <h3>Assistant Lecturer</h3>
+          <p class="timeline-company">Life Choices Academy</p>
+          <span class="timeline-time">(2023)</span>
+          <ul>
+            <li>An assistant lecturer for the new students that started.</li>
+            <li>
+              Guided and suggested solutions to students' coding problems as
+              well as creative styling options
+            </li>
+            <li>
+              Helped students understand coding concepts and frameworks such as
+              HTML, CSS, JavaScript, Vue.JS and Node.JS better
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
           <h3>Full-Stack Developer</h3>
           <p class="timeline-company">Life Choices Academy — Intern</p>
           <span class="timeline-time">(2022 – 2023)</span>
@@ -126,29 +163,8 @@
             </li>
           </ul>
           <div class="skills-tags">
-            <span>Wordpress</span><span>Python</span><span>Elementor</span
-            ><span>PHP</span>
+            <span>Wordpress</span><span>Elementor</span><span>PHP</span>
           </div>
-        </div>
-      </div>
-
-      <div class="timeline-item right">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <h3>Assistant Lecturer</h3>
-          <p class="timeline-company">Life Choices Academy</p>
-          <span class="timeline-time">(2023)</span>
-          <ul>
-            <li>An assistant lecturer for the new students that started.</li>
-            <li>
-              Guided and suggested solutions to students' coding problems as
-              well as creative styling options
-            </li>
-            <li>
-              Helped students understand coding concepts and frameworks such as
-              HTML, CSS, JavaScript, Vue.JS and Node.JS better
-            </li>
-          </ul>
         </div>
       </div>
 
@@ -174,8 +190,9 @@
             </li>
           </ul>
           <div class="skills-tags">
-            <span>Divi</span><span>Yoast SEO</span><span>Keyphrases</span
-            ><span>Alt tags</span><span>Plugins</span>
+            <span>Divi</span><span>SEO</span><span>Keyphrases</span
+            ><span>Alt tags</span><span>maintenance</span
+            ><span>Link Building</span><span>Content and Ahrefs</span>
           </div>
         </div>
       </div>
@@ -185,7 +202,7 @@
         <div class="timeline-content">
           <h3>Life Choices Coding Academy</h3>
           <p class="timeline-company">Tertiary Education</p>
-          <span class="timeline-time">(2022 – 2023)</span>
+          <span class="timeline-time">(2022)</span>
           <ul>
             <li>
               Started the Life Choices Academy Coding Course in 2022, class 1 of
@@ -204,7 +221,7 @@
             <span>HTML</span><span>CSS</span><span>Vue.JS</span
             ><span>Node.JS</span><span>MySQL</span><span>Databases</span
             ><span>Bootstrap</span><span>JavaScript</span><span>Git</span
-            ><span>Command Line</span><span>Powershell</span>
+            ><span>Command Line</span><span>Technical Infrastructure</span>
           </div>
         </div>
       </div>
@@ -230,9 +247,11 @@
             </li>
           </ul>
           <div class="skills-tags">
-            <span>Leadership</span><span>Decision-making</span
+            <span>Leadership</span><span>Decision-Making</span
             ><span>Teamwork</span><span>creativity</span
-            ><span>Problem-solving</span><span>Planning</span>
+            ><span>Problem-Solving</span><span>Planning</span
+            ><span>Self-Awareness</span><span>Self Management</span
+            ><span>Social-Awareness</span><span>Social Management</span>
           </div>
         </div>
       </div>
@@ -296,7 +315,19 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      resume: [
+        {
+          id: 1,
+          title: "Resume",
+          file: "/certificates/Ashton_Abrahams_Resume.pdf",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -442,6 +473,31 @@ export default {};
   border-radius: 999px;
   border: 1px solid rgba(125, 211, 252, 0.35);
   font-size: 0.9rem;
+}
+.work-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.work {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid rgba(125, 211, 252, 0.65);
+  color: #7dd3fc;
+  font-family: Inter, sans-serif;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.work h6 {
+  margin: 5px;
+}
+.work:hover {
+  background: rgba(125, 211, 252, 0.12);
+  color: #e0f2fe;
 }
 
 /* Responsive */
