@@ -267,20 +267,6 @@
   }
 }
 
-@media (max-width: 900px) {
-  .about-card {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .about-left {
-    order: 1;
-  }
-
-  .about-right {
-    order: 2;
-  }
-}
 /* ===== Responsive styles for screens smaller than 996px ===== */
 @media (max-width: 995px) {
   /* Container adjustments */
@@ -350,6 +336,21 @@
   .bio,
   .details {
     padding: 0 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-left {
+    order: 1;
+  }
+
+  .about-right {
+    order: 2;
   }
 }
 

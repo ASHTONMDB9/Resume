@@ -3,7 +3,15 @@
     <h1 id="Art">Gallery</h1>
     <p class="hint">Use the arrows to view each image</p>
 
-    <div class="gallery-wrap">
+    <!-- Mobile/Tablet grid -->
+    <div v-if="windowWidth <= 996" class="mobile-gallery-grid">
+      <div v-for="(item, index) in gallery" :key="index" class="mobile-box">
+        <img :src="item.img" :alt="item.title" />
+        <div class="label">{{ item.title }}</div>
+      </div>
+    </div>
+
+    <div v-else class="gallery-wrap">
       <button class="side-btn left" @click="prev">←</button>
 
       <div class="container-fluid">
@@ -35,6 +43,7 @@ export default {
   data() {
     return {
       activeIndex: 0,
+      windowWidth: window.innerWidth,
       gallery: [
         {
           img: "https://i.postimg.cc/BQ9qkJ7s/Itachi.jpg",
@@ -52,8 +61,7 @@ export default {
           img: "https://i.postimg.cc/KzxWBsJ6/Pan.jpg",
           title: "Pan, Daughter of Gohan",
         },
-        { img: "https://i.postimg.cc/nLv5stYK/Muminah.jpg", 
-          title: "Sunshine" },
+        { img: "https://i.postimg.cc/nLv5stYK/Muminah.jpg", title: "Sunshine" },
         {
           img: "https://i.postimg.cc/tJCvsZ2W/Vegito.jpg",
           title: "Rivals Unite",
@@ -136,7 +144,16 @@ export default {
       };
     },
   },
+  mounted() {
+    window.addEventListener("resize", this.handleResize);
+  },
+  beforeUnmount() {
+    window.removeEventListener("resize", this.handleResize);
+  },
   methods: {
+    handleResize() {
+      this.windowWidth = window.innerWidth;
+    },
     next() {
       this.activeIndex = (this.activeIndex + 1) % this.gallery.length;
     },
@@ -257,25 +274,62 @@ export default {
   color: #e0f2fe;
 }
 
-@media (max-width: 1100px) {
-  .container {
-    width: 700px;
-    height: 420px;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
+@media (max-width: 996px) {
+  /* --- Mobile/Tablet grid --- */
+  .mobile-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 12px;
     width: 95%;
-    height: 380px;
-    grid-template-columns: repeat(12, 1fr);
+    margin: 0 auto;
+    margin-top: 20px;
   }
-}
 
-@media (max-width: 420px) {
-  .container {
-    height: 300px;
-    grid-template-columns: repeat(6, 1fr);
+  .mobile-box {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .mobile-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .mobile-box .label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 12px;
+    background: rgba(0, 0, 0, 0.65);
+    color: #60a5fa;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    border-top-right-radius: 6px;
+  }
+
+  /* --- Back button --- */
+  .work {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid rgba(125, 211, 252, 0.65);
+    color: #7dd3fc;
+    font-family: Inter, sans-serif;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    transition: background 0.25s ease, color 0.25s ease;
+  }
+
+  .work:hover {
+    background: rgba(125, 211, 252, 0.12);
+    color: #e0f2fe;
   }
 }
 </style>
