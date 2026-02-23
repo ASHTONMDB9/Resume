@@ -15,7 +15,7 @@
           <span class="follow">Follow me</span>
 
           <a
-            href="https://www.facebook.com/profile.php?id=100085302518838"
+            href="https://www.facebook.com/profile.php?id=100083321873494"
             target="_blank"
             class="link-icon"
             aria-label="Facebook"
