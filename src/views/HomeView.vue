@@ -181,21 +181,21 @@ export default {};
     margin-top: clamp(150px, 15vw, 300px);
   }
   #land {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -2;
-  filter: saturate(1.1) contrast(1.05);
-}
-.content {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem;
-  animation: fadeUp 1.2s ease forwards;
-}
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    filter: saturate(1.1) contrast(1.05);
+  }
+  .content {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    animation: fadeUp 1.2s ease forwards;
+  }
   .intro {
     font-size: clamp(1rem, 1.2vw, 1.3rem);
     width: clamp(180px, 20vw, 240px);
@@ -216,13 +216,22 @@ export default {};
 }
 @media (max-width: 1024px) {
   .content {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem;
-  animation: fadeUp 1.2s ease forwards;
-  margin-top: 125px;
-}
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    animation: fadeUp 1.2s ease forwards;
+    margin-top: 125px;
+  }
+  #land {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    filter: saturate(1.1) contrast(1.05);
+  }
 }
 /* Tablets / medium devices */
 @media (max-width: 992px) {
@@ -231,14 +240,14 @@ export default {};
     padding: 0 1rem;
   }
   #land {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -2;
-  filter: saturate(1.1) contrast(1.05);
-}
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    filter: saturate(1.1) contrast(1.05);
+  }
   .intro {
     width: 180px;
     font-size: 1.1rem;
@@ -253,13 +262,13 @@ export default {};
     letter-spacing: 0.2em;
   }
   .content {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem;
-  animation: fadeUp 1.2s ease forwards;
-  margin-top: 80px;
-}
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    animation: fadeUp 1.2s ease forwards;
+    margin-top: 80px;
+  }
   .quote {
     font-size: 0.95rem;
     letter-spacing: 0.3em;
@@ -277,26 +286,26 @@ export default {};
     padding: 0 0.8rem;
   }
   .content {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem;
-  animation: fadeUp 1.2s ease forwards;
-  margin-top: 120px;
-}
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    animation: fadeUp 1.2s ease forwards;
+    margin-top: 120px;
+  }
   .intro {
     width: 160px;
     font-size: 1rem;
   }
   #land {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -2;
-  filter: saturate(1.1) contrast(1.05);
-}
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    filter: saturate(1.1) contrast(1.05);
+  }
   .name {
     font-size: clamp(1.8rem, 9vw, 3rem);
   }
@@ -321,26 +330,26 @@ export default {};
     padding: 0 0.5rem;
   }
   #land {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -2;
-  filter: saturate(1.1) contrast(1.05);
-}
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    filter: saturate(1.1) contrast(1.05);
+  }
   .intro {
     width: 140px;
     font-size: 0.9rem;
   }
   .content {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem;
-  animation: fadeUp 1.2s ease forwards;
-  margin-top: 180px;
-}
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    animation: fadeUp 1.2s ease forwards;
+    margin-top: 180px;
+  }
   .name {
     font-size: clamp(1.5rem, 10vw, 2.5rem);
   }
