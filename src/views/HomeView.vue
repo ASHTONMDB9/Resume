@@ -181,7 +181,15 @@ export default {};
   .hero {
     margin-top: clamp(150px, 15vw, 300px);
   }
-
+  #land {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  filter: saturate(1.1) contrast(1.05);
+}
   .intro {
     font-size: clamp(1rem, 1.2vw, 1.3rem);
     width: clamp(180px, 20vw, 240px);
@@ -207,7 +215,15 @@ export default {};
     margin-top: 180px;
     padding: 0 1rem;
   }
-
+  #land {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  filter: saturate(1.1) contrast(1.05);
+}
   .intro {
     width: 180px;
     font-size: 1.1rem;
@@ -250,7 +266,15 @@ export default {};
     width: 160px;
     font-size: 1rem;
   }
-
+  #land {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  filter: saturate(1.1) contrast(1.05);
+}
   .name {
     font-size: clamp(1.8rem, 9vw, 3rem);
   }
@@ -274,7 +298,15 @@ export default {};
     margin-top: 100px;
     padding: 0 0.5rem;
   }
-
+  #land {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  filter: saturate(1.1) contrast(1.05);
+}
   .intro {
     width: 140px;
     font-size: 0.9rem;
