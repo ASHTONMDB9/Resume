@@ -65,7 +65,6 @@ export default {};
   align-items: center;
   padding: 1.5rem;
   animation: fadeUp 1.2s ease forwards;
-  margin-top: 25px;
 }
 .intro {
   color: white;
@@ -190,6 +189,13 @@ export default {};
   z-index: -2;
   filter: saturate(1.1) contrast(1.05);
 }
+.content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  animation: fadeUp 1.2s ease forwards;
+}
   .intro {
     font-size: clamp(1rem, 1.2vw, 1.3rem);
     width: clamp(180px, 20vw, 240px);
@@ -208,7 +214,26 @@ export default {};
     font-size: clamp(0.6rem, 0.7vw, 0.7rem);
   }
 }
-
+@media (max-width: 1440px) {
+  .content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  animation: fadeUp 1.2s ease forwards;
+  margin-top: 50px;
+}
+}
+@media (max-width: 1024px) {
+  .content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  animation: fadeUp 1.2s ease forwards;
+  margin-top: 125px;
+}
+}
 /* Tablets / medium devices */
 @media (max-width: 992px) {
   .hero {
@@ -243,7 +268,7 @@ export default {};
   align-items: center;
   padding: 1.5rem;
   animation: fadeUp 1.2s ease forwards;
-  margin-top: 100px;
+  margin-top: 80px;
 }
   .quote {
     font-size: 0.95rem;
@@ -261,7 +286,14 @@ export default {};
     margin-top: 140px;
     padding: 0 0.8rem;
   }
-
+  .content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  animation: fadeUp 1.2s ease forwards;
+  margin-top: 120px;
+}
   .intro {
     width: 160px;
     font-size: 1rem;
@@ -317,7 +349,7 @@ export default {};
   align-items: center;
   padding: 1.5rem;
   animation: fadeUp 1.2s ease forwards;
-  margin-top: 100px;
+  margin-top: 180px;
 }
   .name {
     font-size: clamp(1.5rem, 10vw, 2.5rem);
