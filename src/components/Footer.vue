@@ -168,7 +168,7 @@ export default {};
 /* Media Queries */
 
 /* Fluid scaling below 1920px */
-@media (max-width: 1919px) {
+@media (max-width: 1080px) {
   .footer-inner {
     max-width: 95%;
   }
