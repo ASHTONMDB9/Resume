@@ -36,7 +36,6 @@ export default {};
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
 }
 #land {
   position: absolute;
@@ -66,6 +65,7 @@ export default {};
   align-items: center;
   padding: 1.5rem;
   animation: fadeUp 1.2s ease forwards;
+  margin-top: 100px;
 }
 .intro {
   color: white;
@@ -83,6 +83,7 @@ export default {};
   font-weight: 900;
   background: linear-gradient(90deg, #7dd3fc, #a78bfa, #22d3ee);
   background-size: 200%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 6px 30px rgba(0, 0, 0, 0.6);
@@ -173,7 +174,6 @@ export default {};
   }
 }
 
-
 /* Media Queries */
 
 /* Fluid scaling below 1920px */
@@ -221,7 +221,14 @@ export default {};
     font-size: 0.85rem;
     letter-spacing: 0.2em;
   }
-
+  .content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  animation: fadeUp 1.2s ease forwards;
+  margin-top: 100px;
+}
   .quote {
     font-size: 0.95rem;
     letter-spacing: 0.3em;
@@ -272,7 +279,14 @@ export default {};
     width: 140px;
     font-size: 0.9rem;
   }
-
+  .content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  animation: fadeUp 1.2s ease forwards;
+  margin-top: 100px;
+}
   .name {
     font-size: clamp(1.5rem, 10vw, 2.5rem);
   }
