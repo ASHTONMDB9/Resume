@@ -65,7 +65,7 @@ export default {};
   align-items: center;
   padding: 1.5rem;
   animation: fadeUp 1.2s ease forwards;
-  margin-top: 100px;
+
 }
 .intro {
   color: white;
