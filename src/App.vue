@@ -109,7 +109,7 @@ export default {
 body {
   background-color: black;
   height: 100%;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-bottom: 70px;
 }
 ::-webkit-scrollbar {
@@ -127,5 +127,66 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(167, 139, 250, 0.4);
   border: 1px solid black;
+}
+
+/* Cursor responsive media queries */
+
+/* Smaller desktops / tablets */
+@media (max-width: 1024px) {
+  .cursor {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cursor::before {
+    border-width: 1.5px;
+    box-shadow: 0 0 16px rgba(125, 211, 252, 0.35),
+      inset 0 0 10px rgba(167, 139, 250, 0.35);
+  }
+
+  .cursor-inner-ring {
+    inset: 6px;
+    border-width: 1px;
+    box-shadow: inset 0 0 8px rgba(167, 139, 250, 0.4);
+  }
+
+  .cursor-dot {
+    width: 6px;
+    height: 6px;
+    box-shadow: 0 0 8px rgba(125, 211, 252, 0.8);
+  }
+}
+
+/* Small tablets / large phones */
+@media (max-width: 768px) {
+  .cursor {
+    width: 48px;
+    height: 48px;
+  }
+
+  .cursor::before {
+    border-width: 1px;
+    box-shadow: 0 0 12px rgba(125, 211, 252, 0.3),
+      inset 0 0 6px rgba(167, 139, 250, 0.25);
+  }
+
+  .cursor-inner-ring {
+    inset: 4px;
+    border-width: 1px;
+    box-shadow: inset 0 0 6px rgba(167, 139, 250, 0.3);
+  }
+
+  .cursor-dot {
+    width: 5px;
+    height: 5px;
+    box-shadow: 0 0 6px rgba(125, 211, 252, 0.7);
+  }
+}
+
+/* Phones / very small screens */
+@media (max-width: 480px) {
+  .cursor {
+    display: none; /* hide cursor on touch devices */
+  }
 }
 </style>

@@ -252,7 +252,7 @@
   text-transform: uppercase;
   transition: background 0.25s ease, color 0.25s ease;
 }
-.work h6{
+.work h6 {
   margin: 5px;
 }
 .work:hover {
@@ -279,6 +279,131 @@
 
   .about-right {
     order: 2;
+  }
+}
+/* ===== Responsive styles for screens smaller than 996px ===== */
+@media (max-width: 995px) {
+  /* Container adjustments */
+  .about-container {
+    padding: 20px; /* reduce container padding */
+    margin-bottom: 80px;
+  }
+
+  /* Stack the card vertically */
+  .about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 16px;
+  }
+
+  /* Image scaling */
+  #ash2 {
+    max-width: 180px;
+    width: 50%;
+    height: auto;
+    transform: translateY(0);
+    margin: 0 auto;
+  }
+
+  /* Title scaling */
+  .about-title {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Details and bio text */
+  .details p,
+  .bio p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+
+  /* Social icons layout */
+  .socials-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .social-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  /* Work button scaling */
+  .work {
+    max-width: 200px;
+    width: auto;
+    margin: 1rem auto 0 auto;
+    padding: 0.7rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  /* Reduce padding inside bio/details */
+  .bio,
+  .details {
+    padding: 0 1rem;
+  }
+}
+
+/* Smaller devices, tablets */
+@media (max-width: 768px) {
+  #ash2 {
+    max-width: 150px;
+    width: 100%;
+  }
+
+  .about-title {
+    font-size: 1.6rem;
+  }
+
+  .details p,
+  .bio p {
+    font-size: 0.85rem;
+  }
+
+  .social-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .work {
+    max-width: 160px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Very small phones <480px */
+@media (max-width: 480px) {
+  #ash2 {
+    max-width: 120px;
+    width: 100%;
+  }
+
+  .about-title {
+    font-size: 1.4rem;
+  }
+
+  .details p,
+  .bio p {
+    font-size: 0.8rem;
+  }
+
+  .social-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .work {
+    max-width: 140px;
+    font-size: 0.75rem;
   }
 }
 </style>

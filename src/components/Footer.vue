@@ -167,37 +167,6 @@ export default {};
 
 /* Media Queries */
 
-/* Fluid scaling below 1920px */
-@media (max-width: 1080px) {
-  .footer-inner {
-    max-width: 95%;
-  }
-
-  .footer-left,
-  .footer-right {
-    flex: 1;
-  }
-
-  .footer-link {
-    font-size: clamp(0.6rem, 0.5vw, 0.75rem);
-    letter-spacing: clamp(0.15em, 0.2vw, 0.35em);
-  }
-
-  .follow {
-    font-size: clamp(0.6rem, 0.5vw, 0.75rem);
-    letter-spacing: clamp(0.15em, 0.2vw, 0.25em);
-  }
-
-  .link-icon {
-    width: clamp(28px, 2vw, 36px);
-    height: clamp(28px, 2vw, 36px);
-  }
-
-  .link-icon i {
-    font-size: clamp(12px, 1.2vw, 15px);
-  }
-}
-
 /* Tablet Layout: stack right content */
 @media (max-width: 992px) {
   .footer-inner {
