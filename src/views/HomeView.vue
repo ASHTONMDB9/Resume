@@ -172,4 +172,123 @@ export default {};
     transform: translateY(0);
   }
 }
+
+
+/* Media Queries */
+
+/* Fluid scaling below 1920px */
+@media (max-width: 1919px) {
+  .hero {
+    margin-top: clamp(150px, 15vw, 300px);
+  }
+
+  .intro {
+    font-size: clamp(1rem, 1.2vw, 1.3rem);
+    width: clamp(180px, 20vw, 240px);
+  }
+
+  .role {
+    font-size: clamp(0.8rem, 0.9vw, 0.95rem);
+  }
+
+  .quote {
+    font-size: clamp(0.9rem, 1vw, 1.05rem);
+    letter-spacing: clamp(0.25em, 0.3vw, 0.35em);
+  }
+
+  .hint {
+    font-size: clamp(0.6rem, 0.7vw, 0.7rem);
+  }
+}
+
+/* Tablets / medium devices */
+@media (max-width: 992px) {
+  .hero {
+    margin-top: 180px;
+    padding: 0 1rem;
+  }
+
+  .intro {
+    width: 180px;
+    font-size: 1.1rem;
+  }
+
+  .name {
+    font-size: clamp(2.2rem, 8vw, 3.5rem);
+  }
+
+  .role {
+    font-size: 0.85rem;
+    letter-spacing: 0.2em;
+  }
+
+  .quote {
+    font-size: 0.95rem;
+    letter-spacing: 0.3em;
+  }
+
+  .hint {
+    font-size: 0.65rem;
+  }
+}
+
+/* Small laptops / large phones */
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 140px;
+    padding: 0 0.8rem;
+  }
+
+  .intro {
+    width: 160px;
+    font-size: 1rem;
+  }
+
+  .name {
+    font-size: clamp(1.8rem, 9vw, 3rem);
+  }
+
+  .role {
+    font-size: 0.8rem;
+  }
+
+  .quote {
+    font-size: 0.9rem;
+  }
+
+  .hint {
+    font-size: 0.6rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 576px) {
+  .hero {
+    margin-top: 100px;
+    padding: 0 0.5rem;
+  }
+
+  .intro {
+    width: 140px;
+    font-size: 0.9rem;
+  }
+
+  .name {
+    font-size: clamp(1.5rem, 10vw, 2.5rem);
+  }
+
+  .role {
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+  }
+
+  .quote {
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+  }
+
+  .hint {
+    font-size: 0.55rem;
+  }
+}
 </style>

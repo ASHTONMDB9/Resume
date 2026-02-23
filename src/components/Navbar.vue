@@ -130,4 +130,77 @@ a.router-link-exact-active::after {
 .navbar-toggler-icon {
   filter: brightness(1.4);
 }
+
+
+/* Media queries */
+
+@media (max-width: 992px) {
+
+/* Glass dropdown panel */
+.navbar-collapse {
+  margin-top: 0.8rem;
+  padding: 1.2rem 1rem;
+  border-radius: 16px;
+
+  background: rgba(8, 10, 18, 0.85);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.5),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+
+  transition: all 0.3s ease;
+}
+
+/* Stack items cleanly */
+.navbar-nav {
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+/* Larger tap targets */
+.nav-link {
+  padding: 0.6rem 0;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+}
+
+/* Stronger active indicator for mobile */
+a.router-link-exact-active {
+  color: #7dd3fc;
+}
+
+/* Improve toggler visibility */
+.navbar-toggler {
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: 1px solid rgba(125, 211, 252, 0.4);
+}
+}
+
+/* Extra small refinement */
+@media (max-width: 576px) {
+
+.navbar-collapse {
+  padding: 1rem 0.8rem;
+  border-radius: 14px;
+}
+
+.nav-link {
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+}
+
+.navbar-brand img.logo {
+    content: url("https://i.postimg.cc/43s5j90F/Ashton-Logo.png");
+  }
+
+}
 </style>
