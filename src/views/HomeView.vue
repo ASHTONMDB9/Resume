@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <video autoplay loop muted playsinline id="land">
-      <source src="../images/land.mp4" type="video/mp4" />
+      <source src="../images/land.mp4" type="video/mp4" loading="lazy" />
     </video>
 
     <div class="overlay"></div>
