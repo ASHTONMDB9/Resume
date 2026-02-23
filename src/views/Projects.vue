@@ -51,11 +51,11 @@ export default {
         },
         {
           id: 3,
-          image: "https://i.postimg.cc/ryDQ8TgQ/calc.png",
+          image: "https://i.postimg.cc/WpQvq4rf/DB9-calculator.png",
           name: "Calculator",
           description: "A simple working mathematical JS calculator",
           github: "https://github.com/ASHTONMDB9/Mycalculator",
-          live: "https://famous-cannoli-bd8b1e.netlify.app",
+          live: "https://db9calculator.netlify.app",
         },
         {
           id: 4,
