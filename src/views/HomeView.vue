@@ -214,16 +214,6 @@ export default {};
     font-size: clamp(0.6rem, 0.7vw, 0.7rem);
   }
 }
-@media (max-width: 1440px) {
-  .content {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem;
-  animation: fadeUp 1.2s ease forwards;
-  margin-top: 50px;
-}
-}
 @media (max-width: 1024px) {
   .content {
   text-align: center;
