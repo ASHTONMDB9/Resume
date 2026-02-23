@@ -68,6 +68,10 @@ export default {
   transition: background 0.4s ease, backdrop-filter 0.4s ease,
     box-shadow 0.4s ease;
 }
+.navbar-brand img.logo {
+    height: 55px;
+
+}
 .nav-inner {
   display: flex;
   align-items: center;
@@ -133,7 +137,13 @@ a.router-link-exact-active::after {
 
 
 /* Media queries */
+@media (max-width: 1200px) {
 
+  .navbar-brand img.logo {
+    height: 45px;
+
+}
+}
 @media (max-width: 992px) {
 
 /* Glass dropdown panel */
@@ -197,10 +207,14 @@ a.router-link-exact-active {
   font-size: 0.65rem;
   letter-spacing: 0.18em;
 }
+.navbar-brand img.logo {
+    height: 35px;
 
+}
+}
+@media (max-width: 400px) {
 .navbar-brand img.logo {
     content: url("https://i.postimg.cc/43s5j90F/Ashton-Logo.png");
   }
-
 }
 </style>
