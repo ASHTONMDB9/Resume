@@ -1,8 +1,9 @@
 <template>
   <section class="gallery">
     <h1 id="Art">Gallery</h1>
-    <p class="hint">Use the arrows to view each image</p>
-
+    <p v-if="windowWidth <= 996" class="hint">Scroll to view each image</p>
+    <p v-else class="hint">Use the arrows to view each image</p>
+    
     <!-- Mobile/Tablet grid -->
     <div v-if="windowWidth <= 996" class="mobile-gallery-grid">
       <div v-for="(item, index) in gallery" :key="index" class="mobile-box">
@@ -10,10 +11,10 @@
         <div class="label">{{ item.title }}</div>
       </div>
     </div>
-
+    
     <div v-else class="gallery-wrap">
       <button class="side-btn left" @click="prev">←</button>
-
+      
       <div class="container-fluid">
         <div class="container" :style="gridStyle">
           <div
@@ -31,7 +32,7 @@
 
       <button class="side-btn right" @click="next">→</button>
     </div>
-
+    
     <router-link to="/About">
       <button class="work w-100"><h6>Back</h6></button>
     </router-link>
