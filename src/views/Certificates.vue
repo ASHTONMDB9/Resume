@@ -66,6 +66,12 @@ export default {
           image: "/certificates/leadership.png",
           file: "/certificates/leadership.pdf",
         },
+        {
+          id: 4,
+          title: "Cyber-security Course",
+          image: "/certificates/cybersecurity.png",
+          file: "/certificates/cybersecurity.pdf",
+        },
       ],
     };
   },
